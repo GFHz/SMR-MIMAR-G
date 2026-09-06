@@ -180,6 +180,8 @@ repro/evaluators/formal/         Formal-Evaluation-v1 metrics/protocol
 repro/evaluators/sasrec/         ProRL-style SASRec loader/wrapper
 repro/experiments/smr_mimar_g/   exact final controlled runner
 repro/results/smr_mimar_g/       frozen final paths, metrics and audit
+repro/experiments/llmipp_vs_smr_mimar_g/ same-protocol comparison runner
+repro/results/llmipp_vs_smr_mimar_g_same_protocol/ frozen comparison outputs
 ```
 
 Additional imported support modules are retained because the exact frozen runner references them. They are not the final method.
@@ -241,7 +243,20 @@ Two paths were generated per user. All valid parser/catalog/guard intermediates 
 
 SMR-MIMAR-G mean normalized path length was 4.6 including target; generation success was 10/10. These values come from only five users. Each user’s two paths were identical under the fixed seed. There was no significance test, and methods have different stopping/candidate rules. The results do not establish general superiority.
 
-## 13. Why the Guard Exists
+## 13. Same-Protocol Comparison with LLM-IPP
+
+This comparison uses the same five users, two paths per user, local Qwen3-4B configuration, and frozen Formal-Evaluation-v1. The baseline is a **local LLM-IPP-style same-protocol reproduction**, not the original paper's GPT-based result. It asks the LLM to infer interests directly from demographics and chronological movie history; it does not receive SMR's explicit interests, routes, overlap guard, or evaluator feedback.
+
+| Method | Evaluator Valid Paths | IoI | IoR | Proxy | Coherence | HistoryReuseRate | TargetPresenceRate | TargetLastRate | IntraPathDuplicateRate |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| LLM-IPP-style same-protocol | 7/10 | -0.989980 | 26.428571 | 0.949967 | 0.878571 | 0.675 | 0.90 | 0.80 | 0.00 |
+| SMR-MIMAR-G | 10/10 | 2.374565 | 416.000000 | 0.606791 | 0.933333 | 0.000 | 1.00 | 1.00 | 0.00 |
+
+The absolute IoI difference is +3.364544; a percentage change is not interpretable because the baseline is negative. The absolute IoR difference is +389.571429, corresponding to +1474.054054% relative to the positive baseline. Coherence rises from 0.878571 to 0.933333. History reuse falls by 67.5 percentage points, target presence rises by 10 percentage points, and target-last rises by 20 percentage points. Proxy decreases from 0.949967 to 0.606791, indicating a trade-off between target guidance and short-term compatibility under this evaluator.
+
+Eight of ten LLM-IPP-style paths reuse historical items; one misses the target, and one contains the target but not at the end. Neither method produced intra-path duplicates. SMR-MIMAR-G target presence and target-last are guaranteed by protocol because the predefined target is appended after intermediate planning; they are not learned successes. Full raw outputs and validity diagnostics are in `repro/results/llmipp_vs_smr_mimar_g_same_protocol/`.
+
+## 14. Why the Guard Exists
 
 The frozen post-hoc diagnostic found:
 
@@ -260,11 +275,11 @@ overlap decrease: mean DeltaIoR = -1283.0
 
 The final method uses overlap only as a monotonic backward guard. Because this guard was motivated by post-hoc analysis on the same small setting, its final result remains exploratory and carries development-set overfitting risk.
 
-## 14. Important Method History
+## 15. Important Method History
 
 Static MI-Bridge introduced one explicit interest-to-target bridge. Dynamic MIMAR explored evolving interests, target attributes and route switching, but switching exhibited instability. SMR-MIMAR replaced this with a diverse static route set. Prefix analysis then showed late-path degradation, and the target-overlap audit identified severe negative rank movement specifically when structural overlap decreased. SMR-MIMAR-G is the final guarded variant. Historical variants are comparisons, not the final method.
 
-## 15. Limitations
+## 16. Limitations
 
 - five users only
 - two paths per user
@@ -284,9 +299,10 @@ Static MI-Bridge introduced one explicit interest-to-target bridge. Dynamic MIMA
 - development-set overfitting risk
 - no independent held-out validation
 - no significance tests
+- the local LLM-IPP baseline is not the original paper's GPT result
 - no evidence of general superiority over LLM-IPP, ITMPRec, T-PRA, or ProRL
 
-## 16. Reproducibility Notes
+## 17. Reproducibility Notes
 
 - Pilot/cohort seed: 20260905.
 - Per-user target/pool seed: `20260905 + user_id`.
@@ -299,7 +315,7 @@ Static MI-Bridge introduced one explicit interest-to-target bridge. Dynamic MIMA
 - Model digest and all generation settings are recorded in the safe example config.
 - Fixed request seed does not guarantee bitwise identity across hardware/runtime versions.
 
-## 17. Citation
+## 18. Citation
 
 This is a student research pre-study, not a peer-reviewed publication.
 
@@ -311,4 +327,10 @@ This is a student research pre-study, not a peer-reviewed publication.
   note={Research pre-study}
 }
 ```
+
+## 19. License
+
+This repository is released under the [MIT License](LICENSE).
+
+Copyright (c) 2026 GFHz
 
