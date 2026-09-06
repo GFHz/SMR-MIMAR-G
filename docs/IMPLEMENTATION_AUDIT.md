@@ -4,7 +4,7 @@ SSD-PR 的全称为 Structure-Semantic Decoupling for Proactive Recommendation�
 
 ## 1. 数据与长期兴趣
 
-最终受控实验从冻结 manifest 读取每位用户的**完整正反馈序列** `positive_movie_ids`，正反馈为 rating ≥ 4，并按 timestamp 升序排列。用户资格要求正反馈数 >20。用于早期 Static MI-Bridge 的 Last-20 仍保存在 manifest 中，但 SSD-PR 不使用 Last-20 计算兴趣，也不存在滑动窗口。
+最终受控实验从冻结 manifest 读取每位用户的**完整正反馈序列** `positive_movie_ids`，正反馈为 rating ≥ 4，并按 timestamp 升序排列。用户资格要求正反馈数 >20。历史开发阶段的 Last-20 字段仍保存在 manifest 中，但 SSD-PR 不使用 Last-20 计算兴趣，也不存在滑动窗口。
 
 目标由 `Random(20260905+user_id)` 在 MovieLens 合法 ID 中抽取，并排除该用户的**全部**正反馈，因此目标不会进入长期兴趣历史。时间截止点是数据中该用户最后一条已观察正反馈；代码没有使用截止点之后的额外交互。这里的 target 是合成的未正反馈目标，不是从未来交互切出的 held-out item。
 
@@ -183,7 +183,7 @@ else:
 
 - 用户：419、5021、2677、3113、2249；每用户 2 路径；最多 6 intermediates。
 - targets：419→Clean Slate (Coup de Torchon) (1981)；5021→Drunken Master (Zui quan) (1979)；2677→Jingle All the Way (1996)；3113→League of Their Own, A (1992)；2249→Timecop (1994)。
-- 冻结 100-item pool 构造：依次加入固定 Last-20 history、target、Static MI-Bridge direct candidates（去重）；其余 catalog 用 `Random(20260905+user_id).shuffle` 后补足至 100。SMR 的每步候选仅从该池中、再按自身 direct-route 支持和硬排除筛选。
+- 冻结 100-item pool 构造：依次加入固定 Last-20 history、target、历史实验的 direct candidates（去重）；其余 catalog 用 `Random(20260905+user_id).shuffle` 后补足至 100。SSD-PR 的每步候选仅从该池中、再按自身 direct-route 支持和硬排除筛选。
 - Offline-positive：所有通过 parser、catalog 与 overlap guard 的项视为接受；guard 停止不是模拟拒绝。
 - 模型配置见参数表。seed 42 在每次请求中重复传入，因此同样 prompt 产生了高度重复的两条路径；这不是独立随机 seed。
 - SASRec 严格后验运行，不参与规划。

@@ -4,17 +4,13 @@ Both planners use the same complete chronological positive history and frozen Qw
 
 | Metric | LLM-IPP-style | SSD-PR | SSD-PR minus baseline |
 |---|---:|---:|---:|
-| Evaluator Valid Paths | 8/10 | 10/10 | +2 paths |
-| IoI | 0.102713 | 2.374565 | +2.271851 |
-| IoR | 313.125000 | 416.000000 | +102.875000 |
-| Proxy Acceptability | 0.929572 | 0.606791 | -0.322781 |
-| Coherence | 0.850000 | 0.933333 | +0.083333 |
-| HistoryReuseRate | 46.5% | 0% | -46.5 pp |
-| TargetPresenceRate | 90% | 100% | +10 pp |
-| TargetLastRate | 90% | 100% | +10 pp |
+| IoI | 0.1027 | 2.3746 | +2.271851 |
+| IoR | 313.125 | 416.000 | +102.875 |
+| Proxy Acceptability | 0.9296 | 0.6068 | -0.322781 |
+| Coherence | 0.8500 | 0.9333 | +0.083333 |
 
-The IoR relative change is `+32.854291%`. In this five-user descriptive pre-study, SSD-PR shows stronger target guidance and constraint consistency but lower Proxy Acceptability.
+The IoR relative change is approximately `+32.85%`. In this five-user descriptive pre-study, SSD-PR shows stronger target guidance and higher Coherence but lower Proxy Acceptability, indicating a trade-off between target guidance and short-term compatibility.
 
-SSD-PR target presence and target-last are guaranteed by endpoint protocol, not learned successes. Raw outputs, strict validity diagnostics, per-path metrics, history/context audits, and frozen historical method references are in `repro/results/main_comparison/`.
+Additional structural and validity diagnostics are retained in the raw experiment outputs and are not treated as primary recommendation-quality metrics.
 
 The fixed seed produced identical paired paths per user. There is no significance test or claim of general superiority. The baseline is a local implementation, not the original GPT paper result.

@@ -14,7 +14,7 @@ Two paths are generated per user. Frozen `qwen3:4b-q4_K_M` runs through Ollama w
 
 LLM-IPP-style receives demographics, all chronological positive movie titles/genres, and target, then implicitly plans a raw path without post-generation repair. SSD-PR computes its profile from the same history, constructs static routes, filters the frozen 100-item pool to DIRECT-support candidates, and appends the predefined target by protocol.
 
-Formal-Evaluation-v1 uses the frozen ProRL-style SASRec checkpoint after generation only. It retains its frozen 20-item SASRec evaluation-history protocol, full-vocabulary softmax, 1-based rank, IoI/IoR definitions, Proxy Acceptability, and genre-overlap Coherence. Mapping status is `LIKELY_COMPATIBLE`.
+Both planners use the complete chronological positive history for planning. Separately, the post-hoc SASRec evaluator retains its fixed 20-item evaluation context from the frozen evaluation protocol; this does not limit either planner's history input to 20 items. Formal-Evaluation-v1 uses the frozen ProRL-style SASRec checkpoint only after generation, with full-vocabulary softmax, 1-based rank, frozen IoI/IoR definitions, Proxy Acceptability, and genre-overlap Coherence. Mapping status is `LIKELY_COMPATIBLE`.
 
 After preparing `data/README.md`, dependencies, local config, and Ollama:
 

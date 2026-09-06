@@ -52,36 +52,26 @@ Neither planner performs supervised training, fine-tuning, LoRA, QLoRA, reinforc
 
 | Metric | LLM-IPP-style | SSD-PR |
 |---|---:|---:|
-| Evaluator Valid Paths | 8/10 | 10/10 |
-| IoI | 0.102713 | 2.374565 |
-| IoR | 313.125000 | 416.000000 |
-| Proxy Acceptability | 0.929572 | 0.606791 |
-| Coherence | 0.850000 | 0.933333 |
-| HistoryReuseRate | 46.5% | 0% |
-| TargetPresenceRate | 90% | 100% |
-| TargetLastRate | 90% | 100% |
+| IoI | 0.1027 | 2.3746 |
+| IoR | 313.125 | 416.000 |
+| Proxy Acceptability | 0.9296 | 0.6068 |
+| Coherence | 0.8500 | 0.9333 |
 
-The absolute IoI difference is `+2.271851`. The absolute IoR difference is `+102.875` (`+32.85%`). SSD-PR trades lower Proxy Acceptability for stronger target guidance and higher path-constraint consistency in this small controlled setting.
-
-SSD-PR's target-presence and target-last rates are protocol-guaranteed because the predefined target is appended after intermediate generation. They are not learned success metrics.
+In this five-user descriptive pre-study, SSD-PR shows stronger target guidance: IoR increases by approximately `32.85%`, and Coherence is higher. Proxy Acceptability decreases substantially, indicating a trade-off between target guidance and short-term compatibility. These results do not support a statistical-significance or general-superiority claim.
 
 ## Repository Structure
 
 ```text
-configs/                           local runtime configuration example
-data/                              dataset placement instructions only
-docs/METHOD.md                     final method definition
-docs/EXPERIMENT.md                 final protocol
-docs/FINAL_RESULTS.md              frozen final results
-docs/IMPLEMENTATION_AUDIT.md       implementation/reproducibility audit
-repro/evaluators/                  Formal-Evaluation-v1 and SASRec adapter
-repro/methods/                     planner implementations
-repro/experiments/main_comparison/ main experiment runner
-repro/results/main_comparison/     frozen main comparison outputs
-repro/results/smr_mimar_g/         frozen final-method outputs and audit
+configs/            local runtime configuration example
+data/               dataset placement instructions only
+docs/               method, protocol, results, and implementation audit
+repro/methods/       planner and supporting modules
+repro/evaluators/    post-hoc evaluation
+repro/experiments/   final comparison runner
+repro/results/       frozen experimental outputs
 ```
 
-Historical support modules remain where the final runner imports them, but SSD-PR is the final public-facing method.
+Historical internal identifiers remain where required for reproducibility, but SSD-PR is the final public-facing method.
 
 ## Reproduction
 
