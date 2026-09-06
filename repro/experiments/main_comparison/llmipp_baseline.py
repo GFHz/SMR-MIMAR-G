@@ -222,7 +222,7 @@ def main():
         for user in users:
             for index in (1, 2):
                 source = read_json(SMR / "generation" / str(user["user_id"]) / f"path_{index}.json")
-                smr_records.append({"method":"SMR-MIMAR-G", "user_id":user["user_id"], "path_index":index,
+                smr_records.append({"method":"SSD-PR", "user_id":user["user_id"], "path_index":index,
                     "target":source["target"], "parsed_path":source["parsed_path"], "parse_success":source["parse_success"],
                     "target_appended_by_normalization":source.get("target_appended_by_normalization"),
                     "source_file":str(SMR / "generation" / str(user["user_id"]) / f"path_{index}.json")})
@@ -240,7 +240,7 @@ def main():
             **{f"LLMIPP_{k}":left[k] for k in ("IoI","IoR","Proxy","Coherence","HISTORY_REUSE_RATE","RAW_TARGET_PRESENT","RAW_TARGET_LAST","INTRA_PATH_DUPLICATE_RATE","EVALUATOR_VALID")},
             **{f"SMR_{k}":right[k] for k in ("IoI","IoR","Proxy","Coherence","HISTORY_REUSE_RATE","RAW_TARGET_PRESENT","RAW_TARGET_LAST","INTRA_PATH_DUPLICATE_RATE","EVALUATOR_VALID")}})
     write_csv(OUT / "per_path_comparison.csv", per, list(per[0]))
-    table = [{"Method":"LLM-IPP-style same-protocol", **llm_agg}, {"Method":"SMR-MIMAR-G", **smr_agg}]
+    table = [{"Method":"LLM-IPP-style same-protocol", **llm_agg}, {"Method":"SSD-PR", **smr_agg}]
     write_csv(OUT / "comparison_table.csv", table, list(table[0]))
     deltas = {f"DELTA_{k.upper()}": smr_agg[k]-llm_agg[k] for k in ("IoI","IoR","Proxy","Coherence")}
     changes = {"RELATIVE_IOI_CHANGE_PERCENT":rel(llm_agg["IoI"],smr_agg["IoI"]),
@@ -257,18 +257,18 @@ def main():
         "baseline_label":"faithful local LLM-IPP-style same-protocol reproduction; not original GPT paper result",
         "baseline_protocol_disclosure":"Independent two-turn local implementation frozen before generation; differs from released source prompt by the task-required five-intermediate and explicit target-final constraints.",
         "title_resolution":"Formal-Evaluation-v1 exact match, then unique The/A/An article normalization only; no semantic repair.",
-        "smr_endpoint_disclosure":"SMR-MIMAR-G appends the predefined target by protocol normalization; target presence/last are guaranteed by protocol, not learned success.",
-        "LLM-IPP-style same-protocol":llm_agg,"SMR-MIMAR-G":smr_agg,"deltas":{**deltas,**changes},
+        "smr_endpoint_disclosure":"SSD-PR appends the predefined target by protocol normalization; target presence/last are guaranteed by protocol, not learned success.",
+        "LLM-IPP-style same-protocol":llm_agg,"SSD-PR":smr_agg,"deltas":{**deltas,**changes},
         "limitations":["5 users and 2 paths per user only","fixed seed can yield duplicated paired outputs",
             "local Qwen baseline is not the original GPT-based LLM-IPP result","no significance or general-superiority claim"],
         "protection":{"FORMAL_EVALUATOR_MODIFIED":False,"SMR_MIMAR_G_MODIFIED":False,"LLMIPP_TUNED_AFTER_RESULTS":False}}
     write_json(OUT / "comparison_summary.json", summary)
-    report = "# LLM-IPP-style vs SMR-MIMAR-G: same-protocol comparison\n\n"
+    report = "# LLM-IPP-style vs SSD-PR: same-protocol comparison\n\n"
     report += "This is a five-user local Qwen case comparison, not a reproduction of the original GPT-based paper result.\n\n"
     report += "| Method | Valid | IoI | IoR | Proxy | Coherence | History reuse | Target present | Target last | Duplicate rate |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n"
     for row in table:
         report += f"| {row['Method']} | {row['Valid Paths']}/10 | {row['IoI']} | {row['IoR']} | {row['Proxy']} | {row['Coherence']} | {row['HistoryReuseRate']} | {row['TargetPresenceRate']} | {row['TargetLastRate']} | {row['IntraPathDuplicateRate']} |\n"
-    report += "\nSMR-MIMAR-G target presence/last are guaranteed by endpoint normalization. Formal metrics use only strict evaluator-valid paths. No significance or general superiority is claimed.\n"
+    report += "\nSSD-PR target presence/last are guaranteed by endpoint normalization. Formal metrics use only strict evaluator-valid paths. No significance or general superiority is claimed.\n"
     (OUT / "comparison_report.md").write_text(report, encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 

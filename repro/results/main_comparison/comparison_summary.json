@@ -1,5 +1,5 @@
 {
-  "comparison": "LLM-IPP-style vs SMR-MIMAR-G",
+  "comparison": "LLM-IPP-style vs SSD-PR",
   "planning_history": "same complete chronological positive history (rating >= 4)",
   "users": [419, 5021, 2677, 3113, 2249],
   "paths_per_user": 2,
@@ -15,7 +15,7 @@
       "TargetPresenceRate": 0.9,
       "TargetLastRate": 0.9
     },
-    "SMR-MIMAR-G": {
+    "SSD-PR": {
       "evaluator_valid_paths": 10,
       "total_paths": 10,
       "IoI": 2.3745645592687077,
@@ -35,7 +35,7 @@
     "Coherence": 0.08333333333333337
   },
   "interpretation": "Descriptive five-user pre-study only; no statistical-significance or general-superiority claim.",
-  "target_endpoint_note": "SMR-MIMAR-G target presence and target-last are guaranteed by predefined-target append, not learned success.",
+  "target_endpoint_note": "SSD-PR target presence and target-last are guaranteed by predefined-target append, not learned success.",
   "llm_training": false,
   "formal_evaluator_modified": false,
   "final_method_modified": false

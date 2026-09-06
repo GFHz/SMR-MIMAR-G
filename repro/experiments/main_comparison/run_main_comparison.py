@@ -1,4 +1,4 @@
-"""Generate the equal-complete-history LLM-IPP-style vs SMR-MIMAR-G comparison."""
+"""Generate the equal-complete-history LLM-IPP-style vs SSD-PR comparison."""
 from __future__ import annotations
 import csv, hashlib, json, statistics, time
 from copy import deepcopy
@@ -87,7 +87,7 @@ def main():
     smr_records=[]
     for user in users:
         for pid in (1,2):
-            r=read_json(SMR/'generation'/str(user['user_id'])/f'path_{pid}.json');r['method']='SMR-MIMAR-G';smr_records.append(r)
+            r=read_json(SMR/'generation'/str(user['user_id'])/f'path_{pid}.json');r['method']='SSD-PR';smr_records.append(r)
     # Formal-Evaluation-v1 retains its frozen 20-item SASRec input protocol; planning inputs are complete history.
     smr_rows=baseline.evaluate(smr_records,eval_users,resolver);smr_agg=baseline.aggregate(smr_rows)
     expected_metrics={'Valid Paths':10,'IoI':2.3745645592687077,'IoR':416,'Proxy':0.6067911714418586,'Coherence':0.9333333333333333,
@@ -97,7 +97,7 @@ def main():
     write_json(OUT/'smr_reference.json',{'source':str(SMR.relative_to(ROOT)),'paths':smr_records,'aggregate':smr_agg,
         'target_endpoint_note':'Target presence/last are protocol-guaranteed by predefined-target append, not learned success.'})
     all_rows=llm_rows+smr_rows;save_csv(OUT/'per_path_results.csv',all_rows,list(all_rows[0]))
-    combined=[{'Condition':'LLM-IPP-style',**llm_agg},{'Condition':'SMR-MIMAR-G',**smr_agg}]
+    combined=[{'Condition':'LLM-IPP-style',**llm_agg},{'Condition':'SSD-PR',**smr_agg}]
     save_csv(OUT/'aggregate_results.csv',combined,list(combined[0]))
     save_csv(OUT/'comparison.csv',combined,list(combined[0]))
     deltas={'DELTA_IOI_FULL':smr_agg['IoI']-llm_agg['IoI'],'DELTA_IOR_FULL':smr_agg['IoR']-llm_agg['IoR'],
@@ -110,7 +110,7 @@ def main():
     if current!=protected:raise RuntimeError('Protected artifacts changed')
     summary={'complete':True,'strict_full_history_comparison_feasible':overflow==0,'all_full_history_assertions_passed':True,
         'context_audit':{'overflow_paths':overflow,'total_paths':10,'token_count_available':True,'runtime_auto_truncation_detected':False},
-        'conditions':{'LLM-IPP-style':llm_agg,'SMR-MIMAR-G':smr_agg},'deltas':deltas,
+        'conditions':{'LLM-IPP-style':llm_agg,'SSD-PR':smr_agg},'deltas':deltas,
         'training':{'LLMIPP_LLM_TRAINED':False,'SMR_LLM_TRAINED':False,'LLM_FINE_TUNING_USED':False,'RL_TRAINING_USED':False},
         'caveat':'Equal complete-positive-history local comparison; not a strict original LLM-IPP reproduction.',
         'new_llmipp_paths':10,'new_smr_llm_generation_run':False,

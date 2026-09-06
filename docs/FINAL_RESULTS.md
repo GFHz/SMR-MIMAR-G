@@ -2,7 +2,7 @@
 
 Both planners use the same complete chronological positive history and frozen Qwen3-4B configuration.
 
-| Metric | LLM-IPP-style | SMR-MIMAR-G | SMR minus baseline |
+| Metric | LLM-IPP-style | SSD-PR | SSD-PR minus baseline |
 |---|---:|---:|---:|
 | Evaluator Valid Paths | 8/10 | 10/10 | +2 paths |
 | IoI | 0.102713 | 2.374565 | +2.271851 |
@@ -13,8 +13,8 @@ Both planners use the same complete chronological positive history and frozen Qw
 | TargetPresenceRate | 90% | 100% | +10 pp |
 | TargetLastRate | 90% | 100% | +10 pp |
 
-The IoR relative change is `+32.854291%`. In this five-user descriptive pre-study, SMR-MIMAR-G shows stronger target guidance and constraint consistency but lower Proxy Acceptability.
+The IoR relative change is `+32.854291%`. In this five-user descriptive pre-study, SSD-PR shows stronger target guidance and constraint consistency but lower Proxy Acceptability.
 
-SMR-MIMAR-G target presence and target-last are guaranteed by endpoint protocol, not learned successes. Raw outputs, strict validity diagnostics, per-path metrics, history/context audits, and frozen SMR references are in `repro/results/main_comparison/`.
+SSD-PR target presence and target-last are guaranteed by endpoint protocol, not learned successes. Raw outputs, strict validity diagnostics, per-path metrics, history/context audits, and frozen historical method references are in `repro/results/main_comparison/`.
 
 The fixed seed produced identical paired paths per user. There is no significance test or claim of general superiority. The baseline is a local implementation, not the original GPT paper result.

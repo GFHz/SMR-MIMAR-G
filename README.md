@@ -1,22 +1,22 @@
-# SMR-MIMAR-G
+# SSD-PR
 
-SMR-MIMAR-G is a catalog-grounded pre-study of proactive recommendation and influence-path planning with a frozen local LLM. It separates explicit structural planning from semantic item selection and reports a controlled five-user comparison with a local LLM-IPP-style baseline. The results are exploratory and do not establish general superiority.
+SSD-PR (Structure-Semantic Decoupling for Proactive Recommendation) is a catalog-grounded pre-study of proactive recommendation and influence-path planning with a frozen local LLM. SSD-PR separates explicit structural planning from LLM-based semantic item selection and reports a controlled five-user comparison with a local LLM-IPP-style baseline. The results are exploratory and do not establish general superiority.
 
 ## Overview
 
-LLM-IPP-style receives demographics, chronological positive history, and a target, then lets the frozen LLM implicitly infer interests and plan an ordered influence path. SMR-MIMAR-G instead uses **Structure-Semantic Decoupling**: deterministic components construct interpretable interest-to-target routes and legal catalog candidates, while the LLM selects an exact item from those candidates.
+LLM-IPP-style receives demographics, chronological positive history, and a target, then lets the frozen LLM implicitly infer interests and plan an ordered influence path. SSD-PR instead follows a structure-semantic decoupling principle: deterministic components construct interpretable interest-to-target routes and legal catalog candidates, while the LLM selects an exact item from those candidates.
 
 ```text
 Complete Positive History
   -> Explicit Long-term Multi-interest Profile
-  -> Interest–Target-Attribute Routes
+  -> Multi-interest × Multi-target-attribute Routes
   -> Catalog-grounded Candidate Set
   -> Frozen LLM Item Selection
   -> Target-Overlap Non-regression Constraint
   -> Predefined Target
 ```
 
-For the controlled local comparison, both LLM-IPP-style and SMR-MIMAR-G are provided with the same complete positive user history.
+For the controlled local comparison, both LLM-IPP-style and SSD-PR are provided with the same complete positive user history.
 
 ## Method
 
@@ -25,9 +25,9 @@ For the controlled local comparison, both LLM-IPP-style and SMR-MIMAR-G are prov
 3. All target genres are preserved.
 4. Feasible `interest -> target genre` routes use `C(i,g) = N(i,g) / sqrt(N(i) N(g))` and `RoutePrior(i,g) = 0.35 L(i) + 0.30 C(i,g)`.
 5. A deterministic diversity-aware selector retains at most four static routes.
-6. Candidate support is DIRECT only: a candidate must contain both endpoints of at least one selected route. Complete positive history, prior intermediates, and target are excluded.
+6. Candidate support is DIRECT only: a candidate must contain both endpoints of at least one selected route. Complete positive history, prior intermediates, and target are excluded. Eligible candidates are sorted by MovieLens item ID and truncated to 20. This deterministic ordering is an implementation choice for reproducibility; MovieLens item ID is not treated as a semantic relevance score.
 7. Frozen Qwen selects one exact title from at most 20 catalog-grounded candidates. The strict parser performs no fuzzy matching or semantic repair.
-8. `O(x) = |Genres(x) intersect TargetGenres| / |TargetGenres|`. If a later intermediate lowers overlap, extension stops and the predefined target is appended.
+8. `O(x) = |Genres(x) intersect TargetGenres| / |TargetGenres|`. The Target-Overlap Non-regression Constraint accepts `O(new) >= O(previous)` and stops extension only when `O(new) < O(previous)`, preventing later intermediates from weakening an already established target-attribute connection.
 
 SASRec, IoI, IoR, target probability, and target rank are never used during planning.
 
@@ -50,7 +50,7 @@ Neither planner performs supervised training, fine-tuning, LoRA, QLoRA, reinforc
 
 ## Main Results
 
-| Metric | LLM-IPP-style | SMR-MIMAR-G |
+| Metric | LLM-IPP-style | SSD-PR |
 |---|---:|---:|
 | Evaluator Valid Paths | 8/10 | 10/10 |
 | IoI | 0.102713 | 2.374565 |
@@ -61,9 +61,9 @@ Neither planner performs supervised training, fine-tuning, LoRA, QLoRA, reinforc
 | TargetPresenceRate | 90% | 100% |
 | TargetLastRate | 90% | 100% |
 
-The absolute IoI difference is `+2.271851`. The absolute IoR difference is `+102.875` (`+32.85%`). SMR-MIMAR-G trades lower Proxy Acceptability for stronger target guidance and higher path-constraint consistency in this small controlled setting.
+The absolute IoI difference is `+2.271851`. The absolute IoR difference is `+102.875` (`+32.85%`). SSD-PR trades lower Proxy Acceptability for stronger target guidance and higher path-constraint consistency in this small controlled setting.
 
-SMR-MIMAR-G's target-presence and target-last rates are protocol-guaranteed because the predefined target is appended after intermediate generation. They are not learned success metrics.
+SSD-PR's target-presence and target-last rates are protocol-guaranteed because the predefined target is appended after intermediate generation. They are not learned success metrics.
 
 ## Repository Structure
 
@@ -81,7 +81,7 @@ repro/results/main_comparison/     frozen main comparison outputs
 repro/results/smr_mimar_g/         frozen final-method outputs and audit
 ```
 
-Historical support modules remain where the final runner imports them, but SMR-MIMAR-G is the final public-facing method.
+Historical support modules remain where the final runner imports them, but SSD-PR is the final public-facing method.
 
 ## Reproduction
 
@@ -108,7 +108,9 @@ See [data/README.md](data/README.md).
 - No statistical-significance claim; only MovieLens-1M and coarse genres are studied.
 - One frozen local Qwen3-4B setting; no claim that results persist after task-specific training.
 - DIRECT support can structurally favor coherence.
-- The target-overlap mechanism was designed in the same development setting and needs independent validation.
+- Candidate truncation currently uses deterministic item-ID ordering rather than a relevance-aware ranking. Future work could rank legal candidates using route support strength, popularity, or learned relevance while preserving catalog constraints.
+- The Target-Overlap Non-regression Constraint is locally greedy and may prevent detours that temporarily reduce target overlap before later recovering it. Future work could study a tolerance threshold, multi-step cumulative target proximity, or limited rollback/lookahead.
+- The target-overlap mechanism was designed in the same development setting and needs independent validation; it does not guarantee shortest paths.
 - Stronger guidance is accompanied by lower Proxy Acceptability.
 - SASRec mapping is `LIKELY_COMPATIBLE`, not proven identical to the unavailable training-time mapping.
 - The local baseline must not be conflated with original LLM-IPP paper results.

@@ -1,4 +1,6 @@
-# SMR-MIMAR-G
+# SSD-PR (Structure-Semantic Decoupling for Proactive Recommendation)
+
+The internal module path retains the historical development identifier `smr_mimar_g` for reproducibility; the final public method name is SSD-PR.
 
 This variant reuses SMR-MIMAR-v0.1 unchanged and adds one structural guard.
 The first valid intermediate is accepted. Later candidates are accepted only

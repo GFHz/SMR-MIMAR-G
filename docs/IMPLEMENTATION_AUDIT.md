@@ -1,8 +1,10 @@
-# SMR-MIMAR-G 最终实现规格
+# SSD-PR 最终实现规格
+
+SSD-PR 的全称为 Structure-Semantic Decoupling for Proactive Recommendation。内部模块路径为保持可复现性而保留历史开发标识 `smr_mimar_g`；最终公开方法名称为 SSD-PR。
 
 ## 1. 数据与长期兴趣
 
-最终受控实验从冻结 manifest 读取每位用户的**完整正反馈序列** `positive_movie_ids`，正反馈为 rating ≥ 4，并按 timestamp 升序排列。用户资格要求正反馈数 >20。用于早期 Static MI-Bridge 的 Last-20 仍保存在 manifest 中，但 SMR-MIMAR-G 不使用 Last-20 计算兴趣，也不存在滑动窗口。
+最终受控实验从冻结 manifest 读取每位用户的**完整正反馈序列** `positive_movie_ids`，正反馈为 rating ≥ 4，并按 timestamp 升序排列。用户资格要求正反馈数 >20。用于早期 Static MI-Bridge 的 Last-20 仍保存在 manifest 中，但 SSD-PR 不使用 Last-20 计算兴趣，也不存在滑动窗口。
 
 目标由 `Random(20260905+user_id)` 在 MovieLens 合法 ID 中抽取，并排除该用户的**全部**正反馈，因此目标不会进入长期兴趣历史。时间截止点是数据中该用户最后一条已观察正反馈；代码没有使用截止点之后的额外交互。这里的 target 是合成的未正反馈目标，不是从未来交互切出的 held-out item。
 
