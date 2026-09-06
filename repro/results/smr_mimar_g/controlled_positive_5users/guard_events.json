@@ -1,0 +1,210 @@
+[
+  {
+    "user_id": 2677,
+    "path_id": 1,
+    "step": 4,
+    "previous_accepted_item": {
+      "id": 169,
+      "title": "Free Willy 2: The Adventure Home (1995)",
+      "genres": [
+        "Adventure",
+        "Children's",
+        "Drama"
+      ],
+      "supported_routes": [
+        [
+          "Drama",
+          "Children's"
+        ]
+      ],
+      "route_support_count": 1,
+      "support_tier": "DIRECT"
+    },
+    "previous_overlap": 0.6666666666666666,
+    "rejected_for_path_item": {
+      "id": 2344,
+      "title": "Runaway Train (1985)",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Thriller"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Adventure"
+        ]
+      ],
+      "route_support_count": 1,
+      "support_tier": "DIRECT"
+    },
+    "new_overlap": 0.3333333333333333,
+    "overlap_delta": -0.3333333333333333,
+    "final_accepted_intermediate_sequence": [
+      "Charade (1963)",
+      "Pyromaniac's Love Story, A (1995)",
+      "Free Willy 2: The Adventure Home (1995)"
+    ]
+  },
+  {
+    "user_id": 2677,
+    "path_id": 2,
+    "step": 4,
+    "previous_accepted_item": {
+      "id": 169,
+      "title": "Free Willy 2: The Adventure Home (1995)",
+      "genres": [
+        "Adventure",
+        "Children's",
+        "Drama"
+      ],
+      "supported_routes": [
+        [
+          "Drama",
+          "Children's"
+        ]
+      ],
+      "route_support_count": 1,
+      "support_tier": "DIRECT"
+    },
+    "previous_overlap": 0.6666666666666666,
+    "rejected_for_path_item": {
+      "id": 2344,
+      "title": "Runaway Train (1985)",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Thriller"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Adventure"
+        ]
+      ],
+      "route_support_count": 1,
+      "support_tier": "DIRECT"
+    },
+    "new_overlap": 0.3333333333333333,
+    "overlap_delta": -0.3333333333333333,
+    "final_accepted_intermediate_sequence": [
+      "Charade (1963)",
+      "Pyromaniac's Love Story, A (1995)",
+      "Free Willy 2: The Adventure Home (1995)"
+    ]
+  },
+  {
+    "user_id": 2249,
+    "path_id": 1,
+    "step": 3,
+    "previous_accepted_item": {
+      "id": 327,
+      "title": "Tank Girl (1995)",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Musical",
+        "Sci-Fi"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Action"
+        ],
+        [
+          "Comedy",
+          "Action"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    },
+    "previous_overlap": 1.0,
+    "rejected_for_path_item": {
+      "id": 153,
+      "title": "Batman Forever (1995)",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Action"
+        ],
+        [
+          "Comedy",
+          "Action"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    },
+    "new_overlap": 0.5,
+    "overlap_delta": -0.5,
+    "final_accepted_intermediate_sequence": [
+      "Get Shorty (1995)",
+      "Tank Girl (1995)"
+    ]
+  },
+  {
+    "user_id": 2249,
+    "path_id": 2,
+    "step": 3,
+    "previous_accepted_item": {
+      "id": 327,
+      "title": "Tank Girl (1995)",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Musical",
+        "Sci-Fi"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Action"
+        ],
+        [
+          "Comedy",
+          "Action"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    },
+    "previous_overlap": 1.0,
+    "rejected_for_path_item": {
+      "id": 153,
+      "title": "Batman Forever (1995)",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Action"
+        ],
+        [
+          "Comedy",
+          "Action"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    },
+    "new_overlap": 0.5,
+    "overlap_delta": -0.5,
+    "final_accepted_intermediate_sequence": [
+      "Get Shorty (1995)",
+      "Tank Girl (1995)"
+    ]
+  }
+]

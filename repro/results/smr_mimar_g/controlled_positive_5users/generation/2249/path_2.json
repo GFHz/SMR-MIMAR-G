@@ -1,0 +1,2452 @@
+{
+  "method": "SMR-MIMAR-G",
+  "protocol": "OFFLINE-POSITIVE",
+  "user_id": 2249,
+  "path_index": 2,
+  "target": {
+    "id": 379,
+    "title": "Timecop (1994)",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  "long_term_interest_profile": {
+    "Action": {
+      "score": 0.5264423076923077,
+      "frequency": 0.2708333333333333,
+      "persistence": 1.0,
+      "recency": 0.4551282051282052,
+      "count": 13
+    },
+    "Adventure": {
+      "score": 0.4520833333333333,
+      "frequency": 0.10416666666666667,
+      "persistence": 1.0,
+      "recency": 0.5,
+      "count": 5
+    },
+    "Animation": {
+      "score": 0.34958333333333336,
+      "frequency": 0.10416666666666667,
+      "persistence": 0.5,
+      "recency": 0.7374999999999999,
+      "count": 5
+    },
+    "Children's": {
+      "score": 0.35416666666666663,
+      "frequency": 0.08333333333333333,
+      "persistence": 0.5,
+      "recency": 0.8125,
+      "count": 4
+    },
+    "Comedy": {
+      "score": 0.6046296296296296,
+      "frequency": 0.375,
+      "persistence": 1.0,
+      "recency": 0.5856481481481483,
+      "count": 18
+    },
+    "Crime": {
+      "score": 0.28125,
+      "frequency": 0.041666666666666664,
+      "persistence": 0.5,
+      "recency": 0.5520833333333334,
+      "count": 2
+    },
+    "Drama": {
+      "score": 0.53625,
+      "frequency": 0.3125,
+      "persistence": 1.0,
+      "recency": 0.4,
+      "count": 15
+    },
+    "Horror": {
+      "score": 0.4652777777777778,
+      "frequency": 0.125,
+      "persistence": 1.0,
+      "recency": 0.513888888888889,
+      "count": 6
+    },
+    "Musical": {
+      "score": 0.37013888888888885,
+      "frequency": 0.0625,
+      "persistence": 0.75,
+      "recency": 0.5694444444444444,
+      "count": 3
+    },
+    "Mystery": {
+      "score": 0.18958333333333335,
+      "frequency": 0.020833333333333332,
+      "persistence": 0.25,
+      "recency": 0.5208333333333334,
+      "count": 1
+    },
+    "Romance": {
+      "score": 0.25625,
+      "frequency": 0.020833333333333332,
+      "persistence": 0.25,
+      "recency": 0.8541666666666666,
+      "count": 1
+    },
+    "Sci-Fi": {
+      "score": 0.42541666666666667,
+      "frequency": 0.20833333333333334,
+      "persistence": 0.75,
+      "recency": 0.48125,
+      "count": 10
+    },
+    "Thriller": {
+      "score": 0.5283653846153846,
+      "frequency": 0.2708333333333333,
+      "persistence": 1.0,
+      "recency": 0.46474358974358976,
+      "count": 13
+    },
+    "War": {
+      "score": 0.33402777777777776,
+      "frequency": 0.0625,
+      "persistence": 0.75,
+      "recency": 0.38888888888888884,
+      "count": 3
+    }
+  },
+  "top_interests": [
+    {
+      "genre": "Comedy",
+      "L": 0.6046296296296296,
+      "score": 0.6046296296296296,
+      "frequency": 0.375,
+      "persistence": 1.0,
+      "recency": 0.5856481481481483,
+      "count": 18
+    },
+    {
+      "genre": "Drama",
+      "L": 0.53625,
+      "score": 0.53625,
+      "frequency": 0.3125,
+      "persistence": 1.0,
+      "recency": 0.4,
+      "count": 15
+    },
+    {
+      "genre": "Thriller",
+      "L": 0.5283653846153846,
+      "score": 0.5283653846153846,
+      "frequency": 0.2708333333333333,
+      "persistence": 1.0,
+      "recency": 0.46474358974358976,
+      "count": 13
+    },
+    {
+      "genre": "Action",
+      "L": 0.5264423076923077,
+      "score": 0.5264423076923077,
+      "frequency": 0.2708333333333333,
+      "persistence": 1.0,
+      "recency": 0.4551282051282052,
+      "count": 13
+    },
+    {
+      "genre": "Horror",
+      "L": 0.4652777777777778,
+      "score": 0.4652777777777778,
+      "frequency": 0.125,
+      "persistence": 1.0,
+      "recency": 0.513888888888889,
+      "count": 6
+    }
+  ],
+  "all_feasible_routes": [
+    {
+      "interest": "Action",
+      "target_genre": "Action",
+      "L": 0.5264423076923077,
+      "count_interest": 503,
+      "count_target_genre": 503,
+      "count_joint": 503,
+      "C": 1.0,
+      "feasible": true,
+      "route_prior": 0.48425480769230766
+    },
+    {
+      "interest": "Action",
+      "target_genre": "Sci-Fi",
+      "L": 0.5264423076923077,
+      "count_interest": 503,
+      "count_target_genre": 276,
+      "count_joint": 107,
+      "C": 0.28717408377081033,
+      "feasible": true,
+      "route_prior": 0.2704070328235508
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Action",
+      "L": 0.5283653846153846,
+      "count_interest": 492,
+      "count_target_genre": 503,
+      "count_joint": 133,
+      "C": 0.26735302174396103,
+      "feasible": true,
+      "route_prior": 0.26513379113857294
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Sci-Fi",
+      "L": 0.5283653846153846,
+      "count_interest": 492,
+      "count_target_genre": 276,
+      "count_joint": 70,
+      "C": 0.1899594692992022,
+      "feasible": true,
+      "route_prior": 0.24191572540514528
+    },
+    {
+      "interest": "Comedy",
+      "target_genre": "Action",
+      "L": 0.6046296296296296,
+      "count_interest": 1200,
+      "count_target_genre": 503,
+      "count_joint": 65,
+      "C": 0.08366402246329206,
+      "feasible": true,
+      "route_prior": 0.23671957710935795
+    },
+    {
+      "interest": "Comedy",
+      "target_genre": "Sci-Fi",
+      "L": 0.6046296296296296,
+      "count_interest": 1200,
+      "count_target_genre": 276,
+      "count_joint": 31,
+      "C": 0.053866223631410984,
+      "feasible": true,
+      "route_prior": 0.22778023745979364
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Action",
+      "L": 0.53625,
+      "count_interest": 1603,
+      "count_target_genre": 503,
+      "count_joint": 100,
+      "C": 0.1113651345971717,
+      "feasible": true,
+      "route_prior": 0.22109704037915148
+    },
+    {
+      "interest": "Horror",
+      "target_genre": "Sci-Fi",
+      "L": 0.4652777777777778,
+      "count_interest": 343,
+      "count_target_genre": 276,
+      "count_joint": 58,
+      "C": 0.1885065271515059,
+      "feasible": true,
+      "route_prior": 0.219399180367674
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Sci-Fi",
+      "L": 0.53625,
+      "count_interest": 1603,
+      "count_target_genre": 276,
+      "count_joint": 23,
+      "C": 0.03457853057116225,
+      "feasible": true,
+      "route_prior": 0.19806105917134864
+    },
+    {
+      "interest": "Horror",
+      "target_genre": "Action",
+      "L": 0.4652777777777778,
+      "count_interest": 343,
+      "count_target_genre": 503,
+      "count_joint": 25,
+      "C": 0.060187867485482195,
+      "feasible": true,
+      "route_prior": 0.1809035824678669
+    }
+  ],
+  "selected_static_route_set": [
+    {
+      "interest": "Action",
+      "target_genre": "Action",
+      "L": 0.5264423076923077,
+      "count_interest": 503,
+      "count_target_genre": 503,
+      "count_joint": 503,
+      "C": 1.0,
+      "feasible": true,
+      "route_prior": 0.48425480769230766,
+      "diversity_reason": "BOTH"
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Sci-Fi",
+      "L": 0.5283653846153846,
+      "count_interest": 492,
+      "count_target_genre": 276,
+      "count_joint": 70,
+      "C": 0.1899594692992022,
+      "feasible": true,
+      "route_prior": 0.24191572540514528,
+      "diversity_reason": "BOTH"
+    },
+    {
+      "interest": "Comedy",
+      "target_genre": "Action",
+      "L": 0.6046296296296296,
+      "count_interest": 1200,
+      "count_target_genre": 503,
+      "count_joint": 65,
+      "C": 0.08366402246329206,
+      "feasible": true,
+      "route_prior": 0.23671957710935795,
+      "diversity_reason": "NEW_START_INTEREST"
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Action",
+      "L": 0.53625,
+      "count_interest": 1603,
+      "count_target_genre": 503,
+      "count_joint": 100,
+      "C": 0.1113651345971717,
+      "feasible": true,
+      "route_prior": 0.22109704037915148,
+      "diversity_reason": "NEW_START_INTEREST"
+    }
+  ],
+  "trajectory": [
+    {
+      "step": 1,
+      "fixed_route_set": [
+        {
+          "interest": "Action",
+          "target_genre": "Action",
+          "L": 0.5264423076923077,
+          "count_interest": 503,
+          "count_target_genre": 503,
+          "count_joint": 503,
+          "C": 1.0,
+          "feasible": true,
+          "route_prior": 0.48425480769230766,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Thriller",
+          "target_genre": "Sci-Fi",
+          "L": 0.5283653846153846,
+          "count_interest": 492,
+          "count_target_genre": 276,
+          "count_joint": 70,
+          "C": 0.1899594692992022,
+          "feasible": true,
+          "route_prior": 0.24191572540514528,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Comedy",
+          "target_genre": "Action",
+          "L": 0.6046296296296296,
+          "count_interest": 1200,
+          "count_target_genre": 503,
+          "count_joint": 65,
+          "C": 0.08366402246329206,
+          "feasible": true,
+          "route_prior": 0.23671957710935795,
+          "diversity_reason": "NEW_START_INTEREST"
+        },
+        {
+          "interest": "Drama",
+          "target_genre": "Action",
+          "L": 0.53625,
+          "count_interest": 1603,
+          "count_target_genre": 503,
+          "count_joint": 100,
+          "C": 0.1113651345971717,
+          "feasible": true,
+          "route_prior": 0.22109704037915148,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [],
+      "legal_candidate_count": 20,
+      "legal_candidates": [
+        {
+          "id": 21,
+          "title": "Get Shorty (1995)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ],
+            [
+              "Drama",
+              "Action"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 153,
+          "title": "Batman Forever (1995)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 208,
+          "title": "Waterworld (1995)",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 286,
+          "title": "Nemesis 2: Nebula (1995)",
+          "genres": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Thriller",
+              "Sci-Fi"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 327,
+          "title": "Tank Girl (1995)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Musical",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 349,
+          "title": "Clear and Present Danger (1994)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 360,
+          "title": "I Love Trouble (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 368,
+          "title": "Maverick (1994)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Western"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 380,
+          "title": "True Lies (1994)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 387,
+          "title": "Low Down Dirty Shame, A (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 390,
+          "title": "Faster Pussycat! Kill! Kill! (1965)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ],
+            [
+              "Drama",
+              "Action"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 420,
+          "title": "Beverly Hills Cop III (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 438,
+          "title": "Cowboy Way, The (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 466,
+          "title": "Hot Shots! Part Deux (1993)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "War"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 485,
+          "title": "Last Action Hero (1993)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 552,
+          "title": "Three Musketeers, The (1993)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 610,
+          "title": "Heavy Metal (1981)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 688,
+          "title": "Operation Dumbo Drop (1995)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "War"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 815,
+          "title": "Power 98 (1995)",
+          "genres": [
+            "Action",
+            "Mystery",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1197,
+          "title": "Princess Bride, The (1987)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Get Shorty (1995)",
+          "Batman Forever (1995)",
+          "Waterworld (1995)",
+          "Nemesis 2: Nebula (1995)",
+          "Tank Girl (1995)",
+          "Clear and Present Danger (1994)",
+          "I Love Trouble (1994)",
+          "Maverick (1994)",
+          "True Lies (1994)",
+          "Low Down Dirty Shame, A (1994)",
+          "Faster Pussycat! Kill! Kill! (1965)",
+          "Beverly Hills Cop III (1994)",
+          "Cowboy Way, The (1994)",
+          "Hot Shots! Part Deux (1993)",
+          "Last Action Hero (1993)",
+          "Three Musketeers, The (1993)",
+          "Heavy Metal (1981)",
+          "Operation Dumbo Drop (1995)",
+          "Power 98 (1995)",
+          "Princess Bride, The (1987)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Get Shorty (1995)",
+              "Batman Forever (1995)",
+              "Waterworld (1995)",
+              "Nemesis 2: Nebula (1995)",
+              "Tank Girl (1995)",
+              "Clear and Present Danger (1994)",
+              "I Love Trouble (1994)",
+              "Maverick (1994)",
+              "True Lies (1994)",
+              "Low Down Dirty Shame, A (1994)",
+              "Faster Pussycat! Kill! Kill! (1965)",
+              "Beverly Hills Cop III (1994)",
+              "Cowboy Way, The (1994)",
+              "Hot Shots! Part Deux (1993)",
+              "Last Action Hero (1993)",
+              "Three Musketeers, The (1993)",
+              "Heavy Metal (1981)",
+              "Operation Dumbo Drop (1995)",
+              "Power 98 (1995)",
+              "Princess Bride, The (1987)"
+            ]
+          },
+          "raw_output": "Get Shorty (1995)",
+          "parse_result": {
+            "success": true,
+            "title": "Get Shorty (1995)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Get Shorty (1995)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 21,
+        "title": "Get Shorty (1995)",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "supported_routes": [
+          [
+            "Action",
+            "Action"
+          ],
+          [
+            "Comedy",
+            "Action"
+          ],
+          [
+            "Drama",
+            "Action"
+          ]
+        ],
+        "route_support_count": 3,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": true,
+      "target_overlap_guard": {
+        "step": 1,
+        "title": "Get Shorty (1995)",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "target_overlap": 0.5,
+        "previous_target_overlap": null,
+        "new_target_overlap": 0.5,
+        "overlap_delta": null,
+        "guard_triggered": false,
+        "first_item_bypass": true
+      },
+      "rejected_for_path_item": null,
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Get Shorty (1995)",
+              "Batman Forever (1995)",
+              "Waterworld (1995)",
+              "Nemesis 2: Nebula (1995)",
+              "Tank Girl (1995)",
+              "Clear and Present Danger (1994)",
+              "I Love Trouble (1994)",
+              "Maverick (1994)",
+              "True Lies (1994)",
+              "Low Down Dirty Shame, A (1994)",
+              "Faster Pussycat! Kill! Kill! (1965)",
+              "Beverly Hills Cop III (1994)",
+              "Cowboy Way, The (1994)",
+              "Hot Shots! Part Deux (1993)",
+              "Last Action Hero (1993)",
+              "Three Musketeers, The (1993)",
+              "Heavy Metal (1981)",
+              "Operation Dumbo Drop (1995)",
+              "Power 98 (1995)",
+              "Princess Bride, The (1987)"
+            ]
+          },
+          "raw_output": "Get Shorty (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:36:17.9474953Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Get Shorty (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":280735300,\"load_duration\":1760000,\"prompt_eval_count\":2667,\"prompt_eval_cached_count\":2666,\"prompt_eval_duration\":13815000,\"eval_count\":10,\"eval_duration\":118133000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:36:17.9474953Z",
+              "message": {
+                "role": "assistant",
+                "content": "Get Shorty (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 280735300,
+              "load_duration": 1760000,
+              "prompt_eval_count": 2667,
+              "prompt_eval_cached_count": 2666,
+              "prompt_eval_duration": 13815000,
+              "eval_count": 10,
+              "eval_duration": 118133000
+            },
+            "elapsed_seconds": 0.3047370999120176
+          }
+        }
+      ],
+      "status": "running"
+    },
+    {
+      "step": 2,
+      "fixed_route_set": [
+        {
+          "interest": "Action",
+          "target_genre": "Action",
+          "L": 0.5264423076923077,
+          "count_interest": 503,
+          "count_target_genre": 503,
+          "count_joint": 503,
+          "C": 1.0,
+          "feasible": true,
+          "route_prior": 0.48425480769230766,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Thriller",
+          "target_genre": "Sci-Fi",
+          "L": 0.5283653846153846,
+          "count_interest": 492,
+          "count_target_genre": 276,
+          "count_joint": 70,
+          "C": 0.1899594692992022,
+          "feasible": true,
+          "route_prior": 0.24191572540514528,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Comedy",
+          "target_genre": "Action",
+          "L": 0.6046296296296296,
+          "count_interest": 1200,
+          "count_target_genre": 503,
+          "count_joint": 65,
+          "C": 0.08366402246329206,
+          "feasible": true,
+          "route_prior": 0.23671957710935795,
+          "diversity_reason": "NEW_START_INTEREST"
+        },
+        {
+          "interest": "Drama",
+          "target_genre": "Action",
+          "L": 0.53625,
+          "count_interest": 1603,
+          "count_target_genre": 503,
+          "count_joint": 100,
+          "C": 0.1113651345971717,
+          "feasible": true,
+          "route_prior": 0.22109704037915148,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [
+        "Get Shorty (1995)"
+      ],
+      "legal_candidate_count": 20,
+      "legal_candidates": [
+        {
+          "id": 153,
+          "title": "Batman Forever (1995)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 208,
+          "title": "Waterworld (1995)",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 286,
+          "title": "Nemesis 2: Nebula (1995)",
+          "genres": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Thriller",
+              "Sci-Fi"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 327,
+          "title": "Tank Girl (1995)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Musical",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 349,
+          "title": "Clear and Present Danger (1994)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 360,
+          "title": "I Love Trouble (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 368,
+          "title": "Maverick (1994)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Western"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 380,
+          "title": "True Lies (1994)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 387,
+          "title": "Low Down Dirty Shame, A (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 390,
+          "title": "Faster Pussycat! Kill! Kill! (1965)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ],
+            [
+              "Drama",
+              "Action"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 420,
+          "title": "Beverly Hills Cop III (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 438,
+          "title": "Cowboy Way, The (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 466,
+          "title": "Hot Shots! Part Deux (1993)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "War"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 485,
+          "title": "Last Action Hero (1993)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 552,
+          "title": "Three Musketeers, The (1993)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 610,
+          "title": "Heavy Metal (1981)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 688,
+          "title": "Operation Dumbo Drop (1995)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "War"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 815,
+          "title": "Power 98 (1995)",
+          "genres": [
+            "Action",
+            "Mystery",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1197,
+          "title": "Princess Bride, The (1987)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1215,
+          "title": "Army of Darkness (1993)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Batman Forever (1995)",
+          "Waterworld (1995)",
+          "Nemesis 2: Nebula (1995)",
+          "Tank Girl (1995)",
+          "Clear and Present Danger (1994)",
+          "I Love Trouble (1994)",
+          "Maverick (1994)",
+          "True Lies (1994)",
+          "Low Down Dirty Shame, A (1994)",
+          "Faster Pussycat! Kill! Kill! (1965)",
+          "Beverly Hills Cop III (1994)",
+          "Cowboy Way, The (1994)",
+          "Hot Shots! Part Deux (1993)",
+          "Last Action Hero (1993)",
+          "Three Musketeers, The (1993)",
+          "Heavy Metal (1981)",
+          "Operation Dumbo Drop (1995)",
+          "Power 98 (1995)",
+          "Princess Bride, The (1987)",
+          "Army of Darkness (1993)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Batman Forever (1995)",
+              "Waterworld (1995)",
+              "Nemesis 2: Nebula (1995)",
+              "Tank Girl (1995)",
+              "Clear and Present Danger (1994)",
+              "I Love Trouble (1994)",
+              "Maverick (1994)",
+              "True Lies (1994)",
+              "Low Down Dirty Shame, A (1994)",
+              "Faster Pussycat! Kill! Kill! (1965)",
+              "Beverly Hills Cop III (1994)",
+              "Cowboy Way, The (1994)",
+              "Hot Shots! Part Deux (1993)",
+              "Last Action Hero (1993)",
+              "Three Musketeers, The (1993)",
+              "Heavy Metal (1981)",
+              "Operation Dumbo Drop (1995)",
+              "Power 98 (1995)",
+              "Princess Bride, The (1987)",
+              "Army of Darkness (1993)"
+            ]
+          },
+          "raw_output": "Tank Girl (1995)",
+          "parse_result": {
+            "success": true,
+            "title": "Tank Girl (1995)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Tank Girl (1995)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 327,
+        "title": "Tank Girl (1995)",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "supported_routes": [
+          [
+            "Action",
+            "Action"
+          ],
+          [
+            "Comedy",
+            "Action"
+          ]
+        ],
+        "route_support_count": 2,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": true,
+      "target_overlap_guard": {
+        "step": 2,
+        "title": "Tank Girl (1995)",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "target_overlap": 1.0,
+        "previous_target_overlap": 0.5,
+        "new_target_overlap": 1.0,
+        "overlap_delta": 0.5,
+        "guard_triggered": false,
+        "first_item_bypass": false
+      },
+      "rejected_for_path_item": null,
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Batman Forever (1995)",
+              "Waterworld (1995)",
+              "Nemesis 2: Nebula (1995)",
+              "Tank Girl (1995)",
+              "Clear and Present Danger (1994)",
+              "I Love Trouble (1994)",
+              "Maverick (1994)",
+              "True Lies (1994)",
+              "Low Down Dirty Shame, A (1994)",
+              "Faster Pussycat! Kill! Kill! (1965)",
+              "Beverly Hills Cop III (1994)",
+              "Cowboy Way, The (1994)",
+              "Hot Shots! Part Deux (1993)",
+              "Last Action Hero (1993)",
+              "Three Musketeers, The (1993)",
+              "Heavy Metal (1981)",
+              "Operation Dumbo Drop (1995)",
+              "Power 98 (1995)",
+              "Princess Bride, The (1987)",
+              "Army of Darkness (1993)"
+            ]
+          },
+          "raw_output": "Tank Girl (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Tank Girl (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:36:18.2316741Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Tank Girl (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":270057200,\"load_duration\":3191400,\"prompt_eval_count\":2676,\"prompt_eval_cached_count\":2675,\"prompt_eval_duration\":13234000,\"eval_count\":9,\"eval_duration\":104803000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:36:18.2316741Z",
+              "message": {
+                "role": "assistant",
+                "content": "Tank Girl (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 270057200,
+              "load_duration": 3191400,
+              "prompt_eval_count": 2676,
+              "prompt_eval_cached_count": 2675,
+              "prompt_eval_duration": 13234000,
+              "eval_count": 9,
+              "eval_duration": 104803000
+            },
+            "elapsed_seconds": 0.28347719996236265
+          }
+        }
+      ],
+      "status": "running"
+    },
+    {
+      "step": 3,
+      "fixed_route_set": [
+        {
+          "interest": "Action",
+          "target_genre": "Action",
+          "L": 0.5264423076923077,
+          "count_interest": 503,
+          "count_target_genre": 503,
+          "count_joint": 503,
+          "C": 1.0,
+          "feasible": true,
+          "route_prior": 0.48425480769230766,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Thriller",
+          "target_genre": "Sci-Fi",
+          "L": 0.5283653846153846,
+          "count_interest": 492,
+          "count_target_genre": 276,
+          "count_joint": 70,
+          "C": 0.1899594692992022,
+          "feasible": true,
+          "route_prior": 0.24191572540514528,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Comedy",
+          "target_genre": "Action",
+          "L": 0.6046296296296296,
+          "count_interest": 1200,
+          "count_target_genre": 503,
+          "count_joint": 65,
+          "C": 0.08366402246329206,
+          "feasible": true,
+          "route_prior": 0.23671957710935795,
+          "diversity_reason": "NEW_START_INTEREST"
+        },
+        {
+          "interest": "Drama",
+          "target_genre": "Action",
+          "L": 0.53625,
+          "count_interest": 1603,
+          "count_target_genre": 503,
+          "count_joint": 100,
+          "C": 0.1113651345971717,
+          "feasible": true,
+          "route_prior": 0.22109704037915148,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [
+        "Get Shorty (1995)",
+        "Tank Girl (1995)"
+      ],
+      "legal_candidate_count": 20,
+      "legal_candidates": [
+        {
+          "id": 153,
+          "title": "Batman Forever (1995)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 208,
+          "title": "Waterworld (1995)",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 286,
+          "title": "Nemesis 2: Nebula (1995)",
+          "genres": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Thriller",
+              "Sci-Fi"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 349,
+          "title": "Clear and Present Danger (1994)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 360,
+          "title": "I Love Trouble (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 368,
+          "title": "Maverick (1994)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Western"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 380,
+          "title": "True Lies (1994)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 387,
+          "title": "Low Down Dirty Shame, A (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 390,
+          "title": "Faster Pussycat! Kill! Kill! (1965)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ],
+            [
+              "Drama",
+              "Action"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 420,
+          "title": "Beverly Hills Cop III (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 438,
+          "title": "Cowboy Way, The (1994)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 466,
+          "title": "Hot Shots! Part Deux (1993)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "War"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 485,
+          "title": "Last Action Hero (1993)",
+          "genres": [
+            "Action",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 552,
+          "title": "Three Musketeers, The (1993)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 610,
+          "title": "Heavy Metal (1981)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 688,
+          "title": "Operation Dumbo Drop (1995)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "War"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 815,
+          "title": "Power 98 (1995)",
+          "genres": [
+            "Action",
+            "Mystery",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1197,
+          "title": "Princess Bride, The (1987)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1215,
+          "title": "Army of Darkness (1993)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1220,
+          "title": "Blues Brothers, The (1980)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Musical"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\",\n    \"Tank Girl (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Blues Brothers, The (1980)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Batman Forever (1995)",
+          "Waterworld (1995)",
+          "Nemesis 2: Nebula (1995)",
+          "Clear and Present Danger (1994)",
+          "I Love Trouble (1994)",
+          "Maverick (1994)",
+          "True Lies (1994)",
+          "Low Down Dirty Shame, A (1994)",
+          "Faster Pussycat! Kill! Kill! (1965)",
+          "Beverly Hills Cop III (1994)",
+          "Cowboy Way, The (1994)",
+          "Hot Shots! Part Deux (1993)",
+          "Last Action Hero (1993)",
+          "Three Musketeers, The (1993)",
+          "Heavy Metal (1981)",
+          "Operation Dumbo Drop (1995)",
+          "Power 98 (1995)",
+          "Princess Bride, The (1987)",
+          "Army of Darkness (1993)",
+          "Blues Brothers, The (1980)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\",\n    \"Tank Girl (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Blues Brothers, The (1980)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Batman Forever (1995)",
+              "Waterworld (1995)",
+              "Nemesis 2: Nebula (1995)",
+              "Clear and Present Danger (1994)",
+              "I Love Trouble (1994)",
+              "Maverick (1994)",
+              "True Lies (1994)",
+              "Low Down Dirty Shame, A (1994)",
+              "Faster Pussycat! Kill! Kill! (1965)",
+              "Beverly Hills Cop III (1994)",
+              "Cowboy Way, The (1994)",
+              "Hot Shots! Part Deux (1993)",
+              "Last Action Hero (1993)",
+              "Three Musketeers, The (1993)",
+              "Heavy Metal (1981)",
+              "Operation Dumbo Drop (1995)",
+              "Power 98 (1995)",
+              "Princess Bride, The (1987)",
+              "Army of Darkness (1993)",
+              "Blues Brothers, The (1980)"
+            ]
+          },
+          "raw_output": "Batman Forever (1995)",
+          "parse_result": {
+            "success": true,
+            "title": "Batman Forever (1995)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Batman Forever (1995)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 153,
+        "title": "Batman Forever (1995)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "supported_routes": [
+          [
+            "Action",
+            "Action"
+          ],
+          [
+            "Comedy",
+            "Action"
+          ]
+        ],
+        "route_support_count": 2,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": false,
+      "target_overlap_guard": {
+        "step": 3,
+        "title": "Batman Forever (1995)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "target_overlap": 0.5,
+        "previous_target_overlap": 1.0,
+        "new_target_overlap": 0.5,
+        "overlap_delta": -0.5,
+        "guard_triggered": true,
+        "first_item_bypass": false,
+        "rejected_for_path_item": {
+          "id": 153,
+          "title": "Batman Forever (1995)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Action"
+            ],
+            [
+              "Comedy",
+              "Action"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        "final_accepted_intermediate_sequence": [
+          "Get Shorty (1995)",
+          "Tank Girl (1995)"
+        ],
+        "stop_reason": "TARGET_OVERLAP_DECREASE"
+      },
+      "rejected_for_path_item": {
+        "id": 153,
+        "title": "Batman Forever (1995)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "supported_routes": [
+          [
+            "Action",
+            "Action"
+          ],
+          [
+            "Comedy",
+            "Action"
+          ]
+        ],
+        "route_support_count": 2,
+        "support_tier": "DIRECT"
+      },
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\",\n    \"Tank Girl (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Blues Brothers, The (1980)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Batman Forever (1995)",
+              "Waterworld (1995)",
+              "Nemesis 2: Nebula (1995)",
+              "Clear and Present Danger (1994)",
+              "I Love Trouble (1994)",
+              "Maverick (1994)",
+              "True Lies (1994)",
+              "Low Down Dirty Shame, A (1994)",
+              "Faster Pussycat! Kill! Kill! (1965)",
+              "Beverly Hills Cop III (1994)",
+              "Cowboy Way, The (1994)",
+              "Hot Shots! Part Deux (1993)",
+              "Last Action Hero (1993)",
+              "Three Musketeers, The (1993)",
+              "Heavy Metal (1981)",
+              "Operation Dumbo Drop (1995)",
+              "Power 98 (1995)",
+              "Princess Bride, The (1987)",
+              "Army of Darkness (1993)",
+              "Blues Brothers, The (1980)"
+            ]
+          },
+          "raw_output": "Batman Forever (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"customer service\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.6046296296296296,\n      \"score\": 0.6046296296296296,\n      \"frequency\": 0.375,\n      \"persistence\": 1.0,\n      \"recency\": 0.5856481481481483,\n      \"count\": 18\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.53625,\n      \"score\": 0.53625,\n      \"frequency\": 0.3125,\n      \"persistence\": 1.0,\n      \"recency\": 0.4,\n      \"count\": 15\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.5283653846153846,\n      \"score\": 0.5283653846153846,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.46474358974358976,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5264423076923077,\n      \"score\": 0.5264423076923077,\n      \"frequency\": 0.2708333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.4551282051282052,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Horror\",\n      \"L\": 0.4652777777777778,\n      \"score\": 0.4652777777777778,\n      \"frequency\": 0.125,\n      \"persistence\": 1.0,\n      \"recency\": 0.513888888888889,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 379,\n    \"title\": \"Timecop (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Action\",\n    \"Sci-Fi\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.48425480769230766\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Sci-Fi\",\n      \"route_prior\": 0.24191572540514528\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.23671957710935795\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Action\",\n      \"route_prior\": 0.22109704037915148\n    }\n  ],\n  \"current_generated_path\": [\n    \"Get Shorty (1995)\",\n    \"Tank Girl (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Batman Forever (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Crime\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Waterworld (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Nemesis 2: Nebula (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Sci-Fi\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Thriller\",\n        \"Sci-Fi\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Clear and Present Danger (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"I Love Trouble (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Maverick (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Western\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"True Lies (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Low Down Dirty Shame, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Faster Pussycat! Kill! Kill! (1965)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ],\n      [\n        \"Drama\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Beverly Hills Cop III (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Cowboy Way, The (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Hot Shots! Part Deux (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Action Hero (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Three Musketeers, The (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Heavy Metal (1981)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Animation\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Operation Dumbo Drop (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"War\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Power 98 (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Mystery\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Princess Bride, The (1987)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Army of Darkness (1993)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Comedy\",\n      \"Horror\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Blues Brothers, The (1980)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Musical\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Action\"\n      ],\n      [\n        \"Comedy\",\n        \"Action\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:36:18.5441215Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Batman Forever (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":288097400,\"load_duration\":1751800,\"prompt_eval_count\":2684,\"prompt_eval_cached_count\":2683,\"prompt_eval_duration\":13516000,\"eval_count\":9,\"eval_duration\":103609000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:36:18.5441215Z",
+              "message": {
+                "role": "assistant",
+                "content": "Batman Forever (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 288097400,
+              "load_duration": 1751800,
+              "prompt_eval_count": 2684,
+              "prompt_eval_cached_count": 2683,
+              "prompt_eval_duration": 13516000,
+              "eval_count": 9,
+              "eval_duration": 103609000
+            },
+            "elapsed_seconds": 0.3115197999868542
+          }
+        }
+      ],
+      "status": "target_overlap_decrease"
+    }
+  ],
+  "accepted_intermediates": [
+    {
+      "id": 21,
+      "title": "Get Shorty (1995)",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Action"
+        ],
+        [
+          "Comedy",
+          "Action"
+        ],
+        [
+          "Drama",
+          "Action"
+        ]
+      ],
+      "route_support_count": 3,
+      "support_tier": "DIRECT"
+    },
+    {
+      "id": 327,
+      "title": "Tank Girl (1995)",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Musical",
+        "Sci-Fi"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Action"
+        ],
+        [
+          "Comedy",
+          "Action"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    }
+  ],
+  "parsed_path": [
+    "Get Shorty (1995)",
+    "Tank Girl (1995)",
+    "Timecop (1994)"
+  ],
+  "parse_success": true,
+  "target_appended_by_normalization": true,
+  "stop_reason": "target_overlap_decrease",
+  "path_length": 3,
+  "static_route_set_size": 4,
+  "distinct_start_interest_count": 4,
+  "distinct_target_attribute_count": 2,
+  "selected_items_supporting_multiple_routes": 2,
+  "mean_selected_item_route_support_count": 2.5,
+  "guard_triggered": true,
+  "guard_trigger_step": 3,
+  "guard_trigger_detail": {
+    "step": 3,
+    "title": "Batman Forever (1995)",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Crime"
+    ],
+    "target_overlap": 0.5,
+    "previous_target_overlap": 1.0,
+    "new_target_overlap": 0.5,
+    "overlap_delta": -0.5,
+    "guard_triggered": true,
+    "first_item_bypass": false,
+    "rejected_for_path_item": {
+      "id": 153,
+      "title": "Batman Forever (1995)",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Action"
+        ],
+        [
+          "Comedy",
+          "Action"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    },
+    "final_accepted_intermediate_sequence": [
+      "Get Shorty (1995)",
+      "Tank Girl (1995)"
+    ],
+    "stop_reason": "TARGET_OVERLAP_DECREASE"
+  },
+  "invalid_llm_outputs": 0,
+  "llm_retry_events": 0,
+  "total_llm_generations": 3,
+  "generation_successful": true,
+  "early_stop": true,
+  "sasrec_used_during_planning": false,
+  "elapsed_seconds": 0.9215371999889612
+}

@@ -1,0 +1,370 @@
+{
+  "paths": [
+    {
+      "user_id": 419,
+      "path_id": 1,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 3637,
+          "target_probability": 5.4963453927081574e-11,
+          "prefix_IoR": 25,
+          "prefix_IoI": -0.05517297215636674
+        },
+        {
+          "step": 2,
+          "target_rank": 3751,
+          "target_probability": 2.3152064987375098e-10,
+          "prefix_IoR": -89,
+          "prefix_IoI": 1.3691071963397796
+        },
+        {
+          "step": 3,
+          "target_rank": 3334,
+          "target_probability": 1.0402780720175642e-10,
+          "prefix_IoR": 328,
+          "prefix_IoI": 0.5743533041840756
+        },
+        {
+          "step": 4,
+          "target_rank": 3102,
+          "target_probability": 2.462756754084694e-07,
+          "prefix_IoR": 560,
+          "prefix_IoI": 8.334339038294337
+        },
+        {
+          "step": 5,
+          "target_rank": 3481,
+          "target_probability": 1.6056312945877949e-09,
+          "prefix_IoR": 181,
+          "prefix_IoI": 3.3020230609125
+        },
+        {
+          "step": 6,
+          "target_rank": 3249,
+          "target_probability": 4.887876769998911e-09,
+          "prefix_IoR": 413,
+          "prefix_IoI": 4.414846015292287
+        }
+      ],
+      "maximum_prefix_IoR": 560,
+      "maximum_prefix_IoR_step": 4,
+      "final_intermediate_IoR": 413,
+      "IoR_regret": 147,
+      "best_prefix_before_final": true
+    },
+    {
+      "user_id": 419,
+      "path_id": 2,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 3637,
+          "target_probability": 5.4963453927081574e-11,
+          "prefix_IoR": 25,
+          "prefix_IoI": -0.05517297215636674
+        },
+        {
+          "step": 2,
+          "target_rank": 3751,
+          "target_probability": 2.3152064987375098e-10,
+          "prefix_IoR": -89,
+          "prefix_IoI": 1.3691071963397796
+        },
+        {
+          "step": 3,
+          "target_rank": 3334,
+          "target_probability": 1.0402780720175642e-10,
+          "prefix_IoR": 328,
+          "prefix_IoI": 0.5743533041840756
+        },
+        {
+          "step": 4,
+          "target_rank": 3102,
+          "target_probability": 2.462756754084694e-07,
+          "prefix_IoR": 560,
+          "prefix_IoI": 8.334339038294337
+        },
+        {
+          "step": 5,
+          "target_rank": 3481,
+          "target_probability": 1.6056312945877949e-09,
+          "prefix_IoR": 181,
+          "prefix_IoI": 3.3020230609125
+        },
+        {
+          "step": 6,
+          "target_rank": 3249,
+          "target_probability": 4.887876769998911e-09,
+          "prefix_IoR": 413,
+          "prefix_IoI": 4.414846015292287
+        }
+      ],
+      "maximum_prefix_IoR": 560,
+      "maximum_prefix_IoR_step": 4,
+      "final_intermediate_IoR": 413,
+      "IoR_regret": 147,
+      "best_prefix_before_final": true
+    },
+    {
+      "user_id": 5021,
+      "path_id": 1,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 553,
+          "target_probability": 3.095789725193754e-05,
+          "prefix_IoR": 670,
+          "prefix_IoI": 2.0947479255977655
+        },
+        {
+          "step": 2,
+          "target_rank": 1124,
+          "target_probability": 5.6355611377512105e-06,
+          "prefix_IoR": 99,
+          "prefix_IoI": 0.3912166658683507
+        },
+        {
+          "step": 3,
+          "target_rank": 1365,
+          "target_probability": 4.241584065312054e-06,
+          "prefix_IoR": -142,
+          "prefix_IoI": 0.10705680064296708
+        },
+        {
+          "step": 4,
+          "target_rank": 935,
+          "target_probability": 6.87496049067704e-06,
+          "prefix_IoR": 288,
+          "prefix_IoI": 0.5900058072808037
+        },
+        {
+          "step": 5,
+          "target_rank": 1568,
+          "target_probability": 3.690364337671781e-06,
+          "prefix_IoR": -345,
+          "prefix_IoI": -0.032154774249432805
+        },
+        {
+          "step": 6,
+          "target_rank": 1731,
+          "target_probability": 2.4897149160096887e-06,
+          "prefix_IoR": -508,
+          "prefix_IoI": -0.4257116208881637
+        }
+      ],
+      "maximum_prefix_IoR": 670,
+      "maximum_prefix_IoR_step": 1,
+      "final_intermediate_IoR": -508,
+      "IoR_regret": 1178,
+      "best_prefix_before_final": true
+    },
+    {
+      "user_id": 5021,
+      "path_id": 2,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 553,
+          "target_probability": 3.095789725193754e-05,
+          "prefix_IoR": 670,
+          "prefix_IoI": 2.0947479255977655
+        },
+        {
+          "step": 2,
+          "target_rank": 1124,
+          "target_probability": 5.6355611377512105e-06,
+          "prefix_IoR": 99,
+          "prefix_IoI": 0.3912166658683507
+        },
+        {
+          "step": 3,
+          "target_rank": 1365,
+          "target_probability": 4.241584065312054e-06,
+          "prefix_IoR": -142,
+          "prefix_IoI": 0.10705680064296708
+        },
+        {
+          "step": 4,
+          "target_rank": 935,
+          "target_probability": 6.87496049067704e-06,
+          "prefix_IoR": 288,
+          "prefix_IoI": 0.5900058072808037
+        },
+        {
+          "step": 5,
+          "target_rank": 1568,
+          "target_probability": 3.690364337671781e-06,
+          "prefix_IoR": -345,
+          "prefix_IoI": -0.032154774249432805
+        },
+        {
+          "step": 6,
+          "target_rank": 1731,
+          "target_probability": 2.4897149160096887e-06,
+          "prefix_IoR": -508,
+          "prefix_IoI": -0.4257116208881637
+        }
+      ],
+      "maximum_prefix_IoR": 670,
+      "maximum_prefix_IoR_step": 1,
+      "final_intermediate_IoR": -508,
+      "IoR_regret": 1178,
+      "best_prefix_before_final": true
+    },
+    {
+      "user_id": 2677,
+      "path_id": 1,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 2562,
+          "target_probability": 3.0820947927168163e-07,
+          "prefix_IoR": -673,
+          "prefix_IoI": -3.1047079051258475
+        },
+        {
+          "step": 2,
+          "target_rank": 1613,
+          "target_probability": 1.3134162145433947e-05,
+          "prefix_IoR": 276,
+          "prefix_IoI": 0.6474811593201313
+        },
+        {
+          "step": 3,
+          "target_rank": 439,
+          "target_probability": 0.0005473045166581869,
+          "prefix_IoR": 1450,
+          "prefix_IoI": 4.377269802579479
+        }
+      ],
+      "maximum_prefix_IoR": 1450,
+      "maximum_prefix_IoR_step": 3,
+      "final_intermediate_IoR": 1450,
+      "IoR_regret": 0,
+      "best_prefix_before_final": false
+    },
+    {
+      "user_id": 2677,
+      "path_id": 2,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 2562,
+          "target_probability": 3.0820947927168163e-07,
+          "prefix_IoR": -673,
+          "prefix_IoI": -3.1047079051258475
+        },
+        {
+          "step": 2,
+          "target_rank": 1613,
+          "target_probability": 1.3134162145433947e-05,
+          "prefix_IoR": 276,
+          "prefix_IoI": 0.6474811593201313
+        },
+        {
+          "step": 3,
+          "target_rank": 439,
+          "target_probability": 0.0005473045166581869,
+          "prefix_IoR": 1450,
+          "prefix_IoI": 4.377269802579479
+        }
+      ],
+      "maximum_prefix_IoR": 1450,
+      "maximum_prefix_IoR_step": 3,
+      "final_intermediate_IoR": 1450,
+      "IoR_regret": 0,
+      "best_prefix_before_final": false
+    },
+    {
+      "user_id": 3113,
+      "path_id": 1,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 67,
+          "target_probability": 0.002826522570103407,
+          "prefix_IoR": 93,
+          "prefix_IoI": 1.5517478305475612
+        }
+      ],
+      "maximum_prefix_IoR": 93,
+      "maximum_prefix_IoR_step": 1,
+      "final_intermediate_IoR": 93,
+      "IoR_regret": 0,
+      "best_prefix_before_final": false
+    },
+    {
+      "user_id": 3113,
+      "path_id": 2,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 67,
+          "target_probability": 0.002826522570103407,
+          "prefix_IoR": 93,
+          "prefix_IoI": 1.5517478305475612
+        }
+      ],
+      "maximum_prefix_IoR": 93,
+      "maximum_prefix_IoR_step": 1,
+      "final_intermediate_IoR": 93,
+      "IoR_regret": 0,
+      "best_prefix_before_final": false
+    },
+    {
+      "user_id": 2249,
+      "path_id": 1,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 1082,
+          "target_probability": 1.7093423593905754e-05,
+          "prefix_IoR": 481,
+          "prefix_IoI": 1.2281647048497053
+        },
+        {
+          "step": 2,
+          "target_rank": 931,
+          "target_probability": 3.534651841619052e-05,
+          "prefix_IoR": 632,
+          "prefix_IoI": 1.954670768812374
+        }
+      ],
+      "maximum_prefix_IoR": 632,
+      "maximum_prefix_IoR_step": 2,
+      "final_intermediate_IoR": 632,
+      "IoR_regret": 0,
+      "best_prefix_before_final": false
+    },
+    {
+      "user_id": 2249,
+      "path_id": 2,
+      "prefix_table": [
+        {
+          "step": 1,
+          "target_rank": 1082,
+          "target_probability": 1.7093423593905754e-05,
+          "prefix_IoR": 481,
+          "prefix_IoI": 1.2281647048497053
+        },
+        {
+          "step": 2,
+          "target_rank": 931,
+          "target_probability": 3.534651841619052e-05,
+          "prefix_IoR": 632,
+          "prefix_IoI": 1.954670768812374
+        }
+      ],
+      "maximum_prefix_IoR": 632,
+      "maximum_prefix_IoR_step": 2,
+      "final_intermediate_IoR": 632,
+      "IoR_regret": 0,
+      "best_prefix_before_final": false
+    }
+  ],
+  "mean_max_prefix_IoR": 681,
+  "mean_final_intermediate_IoR": 416,
+  "mean_IoR_regret": 265,
+  "best_prefix_before_final_count": 4
+}

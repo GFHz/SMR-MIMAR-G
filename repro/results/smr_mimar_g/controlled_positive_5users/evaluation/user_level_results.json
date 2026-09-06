@@ -1,0 +1,41 @@
+[
+  {
+    "user_id": 419,
+    "mean_IoI": 4.414846015292287,
+    "mean_IoR": 413,
+    "path_lengths": [
+      7,
+      7
+    ],
+    "guard_triggered": [
+      false,
+      false
+    ],
+    "trigger_steps": [
+      null,
+      null
+    ],
+    "mean_max_prefix_IoR": 560,
+    "mean_final_IoR_regret": 147,
+    "exact_paths": [
+      [
+        "From Dusk Till Dawn (1996)",
+        "Batman Forever (1995)",
+        "Best Men (1997)",
+        "Twin Town (1997)",
+        "Midnight in the Garden of Good and Evil (1997)",
+        "Hana-bi (1997)",
+        "Clean Slate (Coup de Torchon) (1981)"
+      ],
+      [
+        "From Dusk Till Dawn (1996)",
+        "Batman Forever (1995)",
+        "Best Men (1997)",
+        "Twin Town (1997)",
+        "Midnight in the Garden of Good and Evil (1997)",
+        "Hana-bi (1997)",
+        "Clean Slate (Coup de Torchon) (1981)"
+      ]
+    ]
+  }
+]

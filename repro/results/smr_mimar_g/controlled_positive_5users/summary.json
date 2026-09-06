@@ -1,0 +1,219 @@
+{
+  "complete": true,
+  "evaluator_valid_paths": 10,
+  "generation_successful_paths": 10,
+  "target_only_paths": 0,
+  "early_stop_paths": 6,
+  "guard_triggered_paths": 4,
+  "metrics": {
+    "ValidRate": 1.0,
+    "ComplianceRate": 1.0,
+    "IoI": 2.3745645592687077,
+    "IoR": 416,
+    "ProxyAcceptability": 0.6067911714418586,
+    "Coherence": 0.9333333333333333,
+    "PHRR": 0.0,
+    "HistoryReuseRate": 0.0,
+    "NewIntermediateCount": 3.6,
+    "NormalizedTargetLastRate": 1.0,
+    "VALID_PATH_COUNT": 10,
+    "TOTAL_PATH_COUNT": 10
+  },
+  "mean_path_length": 4.6,
+  "prefix": {
+    "mean_max_prefix_IoR": 681,
+    "mean_final_intermediate_IoR": 416,
+    "mean_IoR_regret": 265,
+    "best_prefix_before_final_count": 4
+  },
+  "guard_trigger_mean_step": 3.5,
+  "invalid_llm_outputs": 6,
+  "llm_retry_events": 2,
+  "original_smr_reference": {
+    "IoI": 1.349992,
+    "IoR": -166.9,
+    "mean_max_prefix_IoR": 692.6,
+    "mean_IoR_regret": 859.5
+  },
+  "comparison_is_descriptive": true,
+  "user_level": [
+    {
+      "user_id": 419,
+      "mean_IoI": 4.414846015292287,
+      "mean_IoR": 413,
+      "path_lengths": [
+        7,
+        7
+      ],
+      "guard_triggered": [
+        false,
+        false
+      ],
+      "trigger_steps": [
+        null,
+        null
+      ],
+      "mean_max_prefix_IoR": 560,
+      "mean_final_IoR_regret": 147,
+      "exact_paths": [
+        [
+          "From Dusk Till Dawn (1996)",
+          "Batman Forever (1995)",
+          "Best Men (1997)",
+          "Twin Town (1997)",
+          "Midnight in the Garden of Good and Evil (1997)",
+          "Hana-bi (1997)",
+          "Clean Slate (Coup de Torchon) (1981)"
+        ],
+        [
+          "From Dusk Till Dawn (1996)",
+          "Batman Forever (1995)",
+          "Best Men (1997)",
+          "Twin Town (1997)",
+          "Midnight in the Garden of Good and Evil (1997)",
+          "Hana-bi (1997)",
+          "Clean Slate (Coup de Torchon) (1981)"
+        ]
+      ]
+    },
+    {
+      "user_id": 5021,
+      "mean_IoI": -0.4257116208881637,
+      "mean_IoR": -508,
+      "path_lengths": [
+        7,
+        7
+      ],
+      "guard_triggered": [
+        false,
+        false
+      ],
+      "trigger_steps": [
+        null,
+        null
+      ],
+      "mean_max_prefix_IoR": 670,
+      "mean_final_IoR_regret": 1178,
+      "exact_paths": [
+        [
+          "Star Wars: Episode V - The Empire Strikes Back (1980)",
+          "Star Wars: Episode VI - Return of the Jedi (1983)",
+          "Transformers: The Movie, The (1986)",
+          "Saving Private Ryan (1998)",
+          "Soldier (1998)",
+          "Mars Attacks! (1996)",
+          "Drunken Master (Zui quan) (1979)"
+        ],
+        [
+          "Star Wars: Episode V - The Empire Strikes Back (1980)",
+          "Star Wars: Episode VI - Return of the Jedi (1983)",
+          "Transformers: The Movie, The (1986)",
+          "Saving Private Ryan (1998)",
+          "Soldier (1998)",
+          "Mars Attacks! (1996)",
+          "Drunken Master (Zui quan) (1979)"
+        ]
+      ]
+    },
+    {
+      "user_id": 2677,
+      "mean_IoI": 4.377269802579479,
+      "mean_IoR": 1450,
+      "path_lengths": [
+        4,
+        4
+      ],
+      "guard_triggered": [
+        true,
+        true
+      ],
+      "trigger_steps": [
+        4,
+        4
+      ],
+      "mean_max_prefix_IoR": 1450,
+      "mean_final_IoR_regret": 0,
+      "exact_paths": [
+        [
+          "Charade (1963)",
+          "Pyromaniac's Love Story, A (1995)",
+          "Free Willy 2: The Adventure Home (1995)",
+          "Jingle All the Way (1996)"
+        ],
+        [
+          "Charade (1963)",
+          "Pyromaniac's Love Story, A (1995)",
+          "Free Willy 2: The Adventure Home (1995)",
+          "Jingle All the Way (1996)"
+        ]
+      ]
+    },
+    {
+      "user_id": 3113,
+      "mean_IoI": 1.5517478305475612,
+      "mean_IoR": 93,
+      "path_lengths": [
+        2,
+        2
+      ],
+      "guard_triggered": [
+        false,
+        false
+      ],
+      "trigger_steps": [
+        null,
+        null
+      ],
+      "mean_max_prefix_IoR": 93,
+      "mean_final_IoR_regret": 0,
+      "exact_paths": [
+        [
+          "Waiting to Exhale (1995)",
+          "League of Their Own, A (1992)"
+        ],
+        [
+          "Waiting to Exhale (1995)",
+          "League of Their Own, A (1992)"
+        ]
+      ]
+    },
+    {
+      "user_id": 2249,
+      "mean_IoI": 1.954670768812374,
+      "mean_IoR": 632,
+      "path_lengths": [
+        3,
+        3
+      ],
+      "guard_triggered": [
+        true,
+        true
+      ],
+      "trigger_steps": [
+        3,
+        3
+      ],
+      "mean_max_prefix_IoR": 632,
+      "mean_final_IoR_regret": 0,
+      "exact_paths": [
+        [
+          "Get Shorty (1995)",
+          "Tank Girl (1995)",
+          "Timecop (1994)"
+        ],
+        [
+          "Get Shorty (1995)",
+          "Tank Girl (1995)",
+          "Timecop (1994)"
+        ]
+      ]
+    }
+  ],
+  "protection": {
+    "changed_files": [],
+    "formal_evaluator_modified": false,
+    "frozen_methods_modified": false,
+    "smr_mimar_g_modified": false
+  },
+  "completed_at": "2026-09-05T18:37:32.275913+00:00"
+}

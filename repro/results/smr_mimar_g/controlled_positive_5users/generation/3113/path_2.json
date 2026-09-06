@@ -1,0 +1,1827 @@
+{
+  "method": "SMR-MIMAR-G",
+  "protocol": "OFFLINE-POSITIVE",
+  "user_id": 3113,
+  "path_index": 2,
+  "target": {
+    "id": 3255,
+    "title": "League of Their Own, A (1992)",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  "long_term_interest_profile": {
+    "Action": {
+      "score": 0.5675925925925925,
+      "frequency": 0.2962962962962963,
+      "persistence": 1.0,
+      "recency": 0.5972222222222222,
+      "count": 8
+    },
+    "Adventure": {
+      "score": 0.4305555555555556,
+      "frequency": 0.14814814814814814,
+      "persistence": 0.75,
+      "recency": 0.6574074074074074,
+      "count": 4
+    },
+    "Animation": {
+      "score": 0.10833333333333334,
+      "frequency": 0.037037037037037035,
+      "persistence": 0.25,
+      "recency": 0.07407407407407407,
+      "count": 1
+    },
+    "Children's": {
+      "score": 0.10833333333333334,
+      "frequency": 0.037037037037037035,
+      "persistence": 0.25,
+      "recency": 0.07407407407407407,
+      "count": 1
+    },
+    "Comedy": {
+      "score": 0.5443732193732194,
+      "frequency": 0.48148148148148145,
+      "persistence": 0.75,
+      "recency": 0.39316239316239315,
+      "count": 13
+    },
+    "Drama": {
+      "score": 0.5955555555555556,
+      "frequency": 0.37037037037037035,
+      "persistence": 1.0,
+      "recency": 0.5518518518518519,
+      "count": 10
+    },
+    "Mystery": {
+      "score": 0.19722222222222222,
+      "frequency": 0.037037037037037035,
+      "persistence": 0.25,
+      "recency": 0.5185185185185185,
+      "count": 1
+    },
+    "Romance": {
+      "score": 0.5934156378600823,
+      "frequency": 0.3333333333333333,
+      "persistence": 1.0,
+      "recency": 0.6337448559670782,
+      "count": 9
+    },
+    "Sci-Fi": {
+      "score": 0.2564814814814815,
+      "frequency": 0.037037037037037035,
+      "persistence": 0.25,
+      "recency": 0.8148148148148148,
+      "count": 1
+    },
+    "Thriller": {
+      "score": 0.4854938271604938,
+      "frequency": 0.2222222222222222,
+      "persistence": 0.75,
+      "recency": 0.7469135802469135,
+      "count": 6
+    },
+    "Western": {
+      "score": 0.10092592592592592,
+      "frequency": 0.037037037037037035,
+      "persistence": 0.25,
+      "recency": 0.037037037037037035,
+      "count": 1
+    }
+  },
+  "top_interests": [
+    {
+      "genre": "Drama",
+      "L": 0.5955555555555556,
+      "score": 0.5955555555555556,
+      "frequency": 0.37037037037037035,
+      "persistence": 1.0,
+      "recency": 0.5518518518518519,
+      "count": 10
+    },
+    {
+      "genre": "Romance",
+      "L": 0.5934156378600823,
+      "score": 0.5934156378600823,
+      "frequency": 0.3333333333333333,
+      "persistence": 1.0,
+      "recency": 0.6337448559670782,
+      "count": 9
+    },
+    {
+      "genre": "Action",
+      "L": 0.5675925925925925,
+      "score": 0.5675925925925925,
+      "frequency": 0.2962962962962963,
+      "persistence": 1.0,
+      "recency": 0.5972222222222222,
+      "count": 8
+    },
+    {
+      "genre": "Comedy",
+      "L": 0.5443732193732194,
+      "score": 0.5443732193732194,
+      "frequency": 0.48148148148148145,
+      "persistence": 0.75,
+      "recency": 0.39316239316239315,
+      "count": 13
+    },
+    {
+      "genre": "Thriller",
+      "L": 0.4854938271604938,
+      "score": 0.4854938271604938,
+      "frequency": 0.2222222222222222,
+      "persistence": 0.75,
+      "recency": 0.7469135802469135,
+      "count": 6
+    }
+  ],
+  "all_feasible_routes": [
+    {
+      "interest": "Drama",
+      "target_genre": "Drama",
+      "L": 0.5955555555555556,
+      "count_interest": 1603,
+      "count_target_genre": 1603,
+      "count_joint": 1603,
+      "C": 1.0,
+      "feasible": true,
+      "route_prior": 0.5084444444444445
+    },
+    {
+      "interest": "Comedy",
+      "target_genre": "Comedy",
+      "L": 0.5443732193732194,
+      "count_interest": 1200,
+      "count_target_genre": 1200,
+      "count_joint": 1200,
+      "C": 1.0,
+      "feasible": true,
+      "route_prior": 0.49053062678062676
+    },
+    {
+      "interest": "Romance",
+      "target_genre": "Comedy",
+      "L": 0.5934156378600823,
+      "count_interest": 471,
+      "count_target_genre": 1200,
+      "count_joint": 204,
+      "C": 0.27134954071899153,
+      "feasible": true,
+      "route_prior": 0.28910033546672625
+    },
+    {
+      "interest": "Romance",
+      "target_genre": "Drama",
+      "L": 0.5934156378600823,
+      "count_interest": 471,
+      "count_target_genre": 1603,
+      "count_joint": 204,
+      "C": 0.23477559652240507,
+      "feasible": true,
+      "route_prior": 0.27812815220775033
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Comedy",
+      "L": 0.5955555555555556,
+      "count_interest": 1603,
+      "count_target_genre": 1200,
+      "count_joint": 226,
+      "C": 0.1629487581266123,
+      "feasible": true,
+      "route_prior": 0.25732907188242815
+    },
+    {
+      "interest": "Comedy",
+      "target_genre": "Drama",
+      "L": 0.5443732193732194,
+      "count_interest": 1200,
+      "count_target_genre": 1603,
+      "count_joint": 226,
+      "C": 0.1629487581266123,
+      "feasible": true,
+      "route_prior": 0.23941525421861046
+    },
+    {
+      "interest": "Action",
+      "target_genre": "Drama",
+      "L": 0.5675925925925925,
+      "count_interest": 503,
+      "count_target_genre": 1603,
+      "count_joint": 100,
+      "C": 0.1113651345971717,
+      "feasible": true,
+      "route_prior": 0.23206694778655887
+    },
+    {
+      "interest": "Action",
+      "target_genre": "Comedy",
+      "L": 0.5675925925925925,
+      "count_interest": 503,
+      "count_target_genre": 1200,
+      "count_joint": 65,
+      "C": 0.08366402246329206,
+      "feasible": true,
+      "route_prior": 0.22375661414639497
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Drama",
+      "L": 0.4854938271604938,
+      "count_interest": 492,
+      "count_target_genre": 1603,
+      "count_joint": 110,
+      "C": 0.12386350711009103,
+      "feasible": true,
+      "route_prior": 0.20708189163920013
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Comedy",
+      "L": 0.4854938271604938,
+      "count_interest": 492,
+      "count_target_genre": 1200,
+      "count_joint": 31,
+      "C": 0.040344888487889904,
+      "feasible": true,
+      "route_prior": 0.18202630605253978
+    }
+  ],
+  "selected_static_route_set": [
+    {
+      "interest": "Drama",
+      "target_genre": "Drama",
+      "L": 0.5955555555555556,
+      "count_interest": 1603,
+      "count_target_genre": 1603,
+      "count_joint": 1603,
+      "C": 1.0,
+      "feasible": true,
+      "route_prior": 0.5084444444444445,
+      "diversity_reason": "BOTH"
+    },
+    {
+      "interest": "Comedy",
+      "target_genre": "Comedy",
+      "L": 0.5443732193732194,
+      "count_interest": 1200,
+      "count_target_genre": 1200,
+      "count_joint": 1200,
+      "C": 1.0,
+      "feasible": true,
+      "route_prior": 0.49053062678062676,
+      "diversity_reason": "BOTH"
+    },
+    {
+      "interest": "Romance",
+      "target_genre": "Comedy",
+      "L": 0.5934156378600823,
+      "count_interest": 471,
+      "count_target_genre": 1200,
+      "count_joint": 204,
+      "C": 0.27134954071899153,
+      "feasible": true,
+      "route_prior": 0.28910033546672625,
+      "diversity_reason": "NEW_START_INTEREST"
+    },
+    {
+      "interest": "Action",
+      "target_genre": "Drama",
+      "L": 0.5675925925925925,
+      "count_interest": 503,
+      "count_target_genre": 1603,
+      "count_joint": 100,
+      "C": 0.1113651345971717,
+      "feasible": true,
+      "route_prior": 0.23206694778655887,
+      "diversity_reason": "NEW_START_INTEREST"
+    }
+  ],
+  "trajectory": [
+    {
+      "step": 1,
+      "fixed_route_set": [
+        {
+          "interest": "Drama",
+          "target_genre": "Drama",
+          "L": 0.5955555555555556,
+          "count_interest": 1603,
+          "count_target_genre": 1603,
+          "count_joint": 1603,
+          "C": 1.0,
+          "feasible": true,
+          "route_prior": 0.5084444444444445,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Comedy",
+          "target_genre": "Comedy",
+          "L": 0.5443732193732194,
+          "count_interest": 1200,
+          "count_target_genre": 1200,
+          "count_joint": 1200,
+          "C": 1.0,
+          "feasible": true,
+          "route_prior": 0.49053062678062676,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Romance",
+          "target_genre": "Comedy",
+          "L": 0.5934156378600823,
+          "count_interest": 471,
+          "count_target_genre": 1200,
+          "count_joint": 204,
+          "C": 0.27134954071899153,
+          "feasible": true,
+          "route_prior": 0.28910033546672625,
+          "diversity_reason": "NEW_START_INTEREST"
+        },
+        {
+          "interest": "Action",
+          "target_genre": "Drama",
+          "L": 0.5675925925925925,
+          "count_interest": 503,
+          "count_target_genre": 1603,
+          "count_joint": 100,
+          "C": 0.1113651345971717,
+          "feasible": true,
+          "route_prior": 0.23206694778655887,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [],
+      "legal_candidate_count": 20,
+      "legal_candidates": [
+        {
+          "id": 4,
+          "title": "Waiting to Exhale (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 11,
+          "title": "American President, The (1995)",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 21,
+          "title": "Get Shorty (1995)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Action",
+              "Drama"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 32,
+          "title": "Twelve Monkeys (1995)",
+          "genres": [
+            "Drama",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 34,
+          "title": "Babe (1995)",
+          "genres": [
+            "Children's",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 45,
+          "title": "To Die For (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 72,
+          "title": "Kicking and Screaming (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 75,
+          "title": "Big Bully (1996)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 84,
+          "title": "Last Summer in the Hamptons (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 106,
+          "title": "Nobody Loves Me (Keiner liebt mich) (1994)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 118,
+          "title": "If Lucy Fell (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 133,
+          "title": "Nueba Yol (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 138,
+          "title": "Neon Bible, The (1995)",
+          "genres": [
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 166,
+          "title": "Doom Generation, The (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 195,
+          "title": "Something to Talk About (1995)",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 205,
+          "title": "Unstrung Heroes (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 218,
+          "title": "Boys on the Side (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 224,
+          "title": "Don Juan DeMarco (1995)",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 232,
+          "title": "Eat Drink Man Woman (1994)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 235,
+          "title": "Ed Wood (1994)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Waiting to Exhale (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Waiting to Exhale (1995)",
+          "American President, The (1995)",
+          "Get Shorty (1995)",
+          "Twelve Monkeys (1995)",
+          "Babe (1995)",
+          "To Die For (1995)",
+          "Kicking and Screaming (1995)",
+          "Big Bully (1996)",
+          "Last Summer in the Hamptons (1995)",
+          "Nobody Loves Me (Keiner liebt mich) (1994)",
+          "If Lucy Fell (1996)",
+          "Nueba Yol (1995)",
+          "Neon Bible, The (1995)",
+          "Doom Generation, The (1995)",
+          "Something to Talk About (1995)",
+          "Unstrung Heroes (1995)",
+          "Boys on the Side (1995)",
+          "Don Juan DeMarco (1995)",
+          "Eat Drink Man Woman (1994)",
+          "Ed Wood (1994)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Waiting to Exhale (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Waiting to Exhale (1995)",
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "parse_result": {
+            "success": true,
+            "title": "Waiting to Exhale (1995)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Waiting to Exhale (1995)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 4,
+        "title": "Waiting to Exhale (1995)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "supported_routes": [
+          [
+            "Drama",
+            "Drama"
+          ],
+          [
+            "Comedy",
+            "Comedy"
+          ]
+        ],
+        "route_support_count": 2,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": true,
+      "target_overlap_guard": {
+        "step": 1,
+        "title": "Waiting to Exhale (1995)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "target_overlap": 1.0,
+        "previous_target_overlap": null,
+        "new_target_overlap": 1.0,
+        "overlap_delta": null,
+        "guard_triggered": false,
+        "first_item_bypass": true
+      },
+      "rejected_for_path_item": null,
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Waiting to Exhale (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Waiting to Exhale (1995)",
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Waiting to Exhale (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:36:14.6893486Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Waiting to Exhale (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":268645300,\"load_duration\":2109800,\"prompt_eval_count\":2815,\"prompt_eval_cached_count\":2814,\"prompt_eval_duration\":14096000,\"eval_count\":12,\"eval_duration\":130848999}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:36:14.6893486Z",
+              "message": {
+                "role": "assistant",
+                "content": "Waiting to Exhale (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 268645300,
+              "load_duration": 2109800,
+              "prompt_eval_count": 2815,
+              "prompt_eval_cached_count": 2814,
+              "prompt_eval_duration": 14096000,
+              "eval_count": 12,
+              "eval_duration": 130848999
+            },
+            "elapsed_seconds": 0.28391769994050264
+          }
+        }
+      ],
+      "status": "running"
+    },
+    {
+      "step": 2,
+      "fixed_route_set": [
+        {
+          "interest": "Drama",
+          "target_genre": "Drama",
+          "L": 0.5955555555555556,
+          "count_interest": 1603,
+          "count_target_genre": 1603,
+          "count_joint": 1603,
+          "C": 1.0,
+          "feasible": true,
+          "route_prior": 0.5084444444444445,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Comedy",
+          "target_genre": "Comedy",
+          "L": 0.5443732193732194,
+          "count_interest": 1200,
+          "count_target_genre": 1200,
+          "count_joint": 1200,
+          "C": 1.0,
+          "feasible": true,
+          "route_prior": 0.49053062678062676,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Romance",
+          "target_genre": "Comedy",
+          "L": 0.5934156378600823,
+          "count_interest": 471,
+          "count_target_genre": 1200,
+          "count_joint": 204,
+          "C": 0.27134954071899153,
+          "feasible": true,
+          "route_prior": 0.28910033546672625,
+          "diversity_reason": "NEW_START_INTEREST"
+        },
+        {
+          "interest": "Action",
+          "target_genre": "Drama",
+          "L": 0.5675925925925925,
+          "count_interest": 503,
+          "count_target_genre": 1603,
+          "count_joint": 100,
+          "C": 0.1113651345971717,
+          "feasible": true,
+          "route_prior": 0.23206694778655887,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [
+        "Waiting to Exhale (1995)"
+      ],
+      "legal_candidate_count": 20,
+      "legal_candidates": [
+        {
+          "id": 11,
+          "title": "American President, The (1995)",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 21,
+          "title": "Get Shorty (1995)",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Action",
+              "Drama"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 32,
+          "title": "Twelve Monkeys (1995)",
+          "genres": [
+            "Drama",
+            "Sci-Fi"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 34,
+          "title": "Babe (1995)",
+          "genres": [
+            "Children's",
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 45,
+          "title": "To Die For (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 72,
+          "title": "Kicking and Screaming (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 75,
+          "title": "Big Bully (1996)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 84,
+          "title": "Last Summer in the Hamptons (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 106,
+          "title": "Nobody Loves Me (Keiner liebt mich) (1994)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 118,
+          "title": "If Lucy Fell (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 133,
+          "title": "Nueba Yol (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 138,
+          "title": "Neon Bible, The (1995)",
+          "genres": [
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 166,
+          "title": "Doom Generation, The (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 195,
+          "title": "Something to Talk About (1995)",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 205,
+          "title": "Unstrung Heroes (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 218,
+          "title": "Boys on the Side (1995)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 224,
+          "title": "Don Juan DeMarco (1995)",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 3,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 232,
+          "title": "Eat Drink Man Woman (1994)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 235,
+          "title": "Ed Wood (1994)",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ],
+            [
+              "Comedy",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 262,
+          "title": "Little Princess, A (1995)",
+          "genres": [
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Drama"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "American President, The (1995)",
+          "Get Shorty (1995)",
+          "Twelve Monkeys (1995)",
+          "Babe (1995)",
+          "To Die For (1995)",
+          "Kicking and Screaming (1995)",
+          "Big Bully (1996)",
+          "Last Summer in the Hamptons (1995)",
+          "Nobody Loves Me (Keiner liebt mich) (1994)",
+          "If Lucy Fell (1996)",
+          "Nueba Yol (1995)",
+          "Neon Bible, The (1995)",
+          "Doom Generation, The (1995)",
+          "Something to Talk About (1995)",
+          "Unstrung Heroes (1995)",
+          "Boys on the Side (1995)",
+          "Don Juan DeMarco (1995)",
+          "Eat Drink Man Woman (1994)",
+          "Ed Wood (1994)",
+          "Little Princess, A (1995)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)",
+              "Little Princess, A (1995)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "parse_result": {
+            "success": false,
+            "title": null,
+            "error": "not_exact_allowed_candidate"
+          }
+        },
+        {
+          "attempt": 2,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.\n\nINVALID OUTPUT. Copy exactly one movie title verbatim from the unchanged ALLOWED CANDIDATES.",
+            "allowed_titles": [
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)",
+              "Little Princess, A (1995)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "parse_result": {
+            "success": false,
+            "title": null,
+            "error": "not_exact_allowed_candidate"
+          }
+        },
+        {
+          "attempt": 3,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.\n\nINVALID OUTPUT. Copy exactly one movie title verbatim from the unchanged ALLOWED CANDIDATES.",
+            "allowed_titles": [
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)",
+              "Little Princess, A (1995)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "parse_result": {
+            "success": false,
+            "title": null,
+            "error": "not_exact_allowed_candidate"
+          }
+        }
+      ],
+      "llm_retry_count": 2,
+      "parser_result": {
+        "success": false,
+        "title": null,
+        "error": "not_exact_allowed_candidate"
+      },
+      "selected_item": null,
+      "selected_item_accepted": null,
+      "target_overlap_guard": null,
+      "rejected_for_path_item": null,
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)",
+              "Little Princess, A (1995)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:36:14.9877642Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Waiting to Exhale (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":273046300,\"load_duration\":2193200,\"prompt_eval_count\":2815,\"prompt_eval_cached_count\":2801,\"prompt_eval_duration\":18148000,\"eval_count\":12,\"eval_duration\":131521999}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:36:14.9877642Z",
+              "message": {
+                "role": "assistant",
+                "content": "Waiting to Exhale (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 273046300,
+              "load_duration": 2193200,
+              "prompt_eval_count": 2815,
+              "prompt_eval_cached_count": 2801,
+              "prompt_eval_duration": 18148000,
+              "eval_count": 12,
+              "eval_duration": 131521999
+            },
+            "elapsed_seconds": 0.2970999999670312
+          }
+        },
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.\n\nINVALID OUTPUT. Copy exactly one movie title verbatim from the unchanged ALLOWED CANDIDATES.",
+            "allowed_titles": [
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)",
+              "Little Princess, A (1995)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.\n\nINVALID OUTPUT. Copy exactly one movie title verbatim from the unchanged ALLOWED CANDIDATES."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:36:15.1549307Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Waiting to Exhale (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":165513100,\"load_duration\":1579600,\"prompt_eval_count\":2835,\"prompt_eval_cached_count\":2801,\"prompt_eval_duration\":25332000,\"eval_count\":12,\"eval_duration\":129458000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:36:15.1549307Z",
+              "message": {
+                "role": "assistant",
+                "content": "Waiting to Exhale (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 165513100,
+              "load_duration": 1579600,
+              "prompt_eval_count": 2835,
+              "prompt_eval_cached_count": 2801,
+              "prompt_eval_duration": 25332000,
+              "eval_count": 12,
+              "eval_duration": 129458000
+            },
+            "elapsed_seconds": 0.16707900003530085
+          }
+        },
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.\n\nINVALID OUTPUT. Copy exactly one movie title verbatim from the unchanged ALLOWED CANDIDATES.",
+            "allowed_titles": [
+              "American President, The (1995)",
+              "Get Shorty (1995)",
+              "Twelve Monkeys (1995)",
+              "Babe (1995)",
+              "To Die For (1995)",
+              "Kicking and Screaming (1995)",
+              "Big Bully (1996)",
+              "Last Summer in the Hamptons (1995)",
+              "Nobody Loves Me (Keiner liebt mich) (1994)",
+              "If Lucy Fell (1996)",
+              "Nueba Yol (1995)",
+              "Neon Bible, The (1995)",
+              "Doom Generation, The (1995)",
+              "Something to Talk About (1995)",
+              "Unstrung Heroes (1995)",
+              "Boys on the Side (1995)",
+              "Don Juan DeMarco (1995)",
+              "Eat Drink Man Woman (1994)",
+              "Ed Wood (1994)",
+              "Little Princess, A (1995)"
+            ]
+          },
+          "raw_output": "Waiting to Exhale (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"25-34\",\n    \"gender\": \"Male\",\n    \"occupation\": \"K-12 student\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5955555555555556,\n      \"score\": 0.5955555555555556,\n      \"frequency\": 0.37037037037037035,\n      \"persistence\": 1.0,\n      \"recency\": 0.5518518518518519,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5934156378600823,\n      \"score\": 0.5934156378600823,\n      \"frequency\": 0.3333333333333333,\n      \"persistence\": 1.0,\n      \"recency\": 0.6337448559670782,\n      \"count\": 9\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.5675925925925925,\n      \"score\": 0.5675925925925925,\n      \"frequency\": 0.2962962962962963,\n      \"persistence\": 1.0,\n      \"recency\": 0.5972222222222222,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Comedy\",\n      \"L\": 0.5443732193732194,\n      \"score\": 0.5443732193732194,\n      \"frequency\": 0.48148148148148145,\n      \"persistence\": 0.75,\n      \"recency\": 0.39316239316239315,\n      \"count\": 13\n    },\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.4854938271604938,\n      \"score\": 0.4854938271604938,\n      \"frequency\": 0.2222222222222222,\n      \"persistence\": 0.75,\n      \"recency\": 0.7469135802469135,\n      \"count\": 6\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 3255,\n    \"title\": \"League of Their Own, A (1992)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Comedy\",\n    \"Drama\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.5084444444444445\n    },\n    {\n      \"start_interest\": \"Comedy\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.49053062678062676\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28910033546672625\n    },\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Drama\",\n      \"route_prior\": 0.23206694778655887\n    }\n  ],\n  \"current_generated_path\": [\n    \"Waiting to Exhale (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"American President, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Get Shorty (1995)\",\n    \"genres\": [\n      \"Action\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Action\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Twelve Monkeys (1995)\",\n    \"genres\": [\n      \"Drama\",\n      \"Sci-Fi\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Babe (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"To Die For (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Kicking and Screaming (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Big Bully (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Last Summer in the Hamptons (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nobody Loves Me (Keiner liebt mich) (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"If Lucy Fell (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Nueba Yol (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Neon Bible, The (1995)\",\n    \"genres\": [\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Doom Generation, The (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Something to Talk About (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Unstrung Heroes (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Boys on the Side (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Don Juan DeMarco (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 3\n  },\n  {\n    \"title\": \"Eat Drink Man Woman (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Ed Wood (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ],\n      [\n        \"Comedy\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Little Princess, A (1995)\",\n    \"genres\": [\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Drama\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.\n\nINVALID OUTPUT. Copy exactly one movie title verbatim from the unchanged ALLOWED CANDIDATES."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:36:15.3303554Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Waiting to Exhale (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":151605500,\"load_duration\":2398800,\"prompt_eval_count\":2835,\"prompt_eval_cached_count\":2834,\"prompt_eval_duration\":11682000,\"eval_count\":12,\"eval_duration\":127267000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:36:15.3303554Z",
+              "message": {
+                "role": "assistant",
+                "content": "Waiting to Exhale (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 151605500,
+              "load_duration": 2398800,
+              "prompt_eval_count": 2835,
+              "prompt_eval_cached_count": 2834,
+              "prompt_eval_duration": 11682000,
+              "eval_count": 12,
+              "eval_duration": 127267000
+            },
+            "elapsed_seconds": 0.17563490010797977
+          }
+        }
+      ],
+      "status": "invalid_llm_selection_after_retries"
+    }
+  ],
+  "accepted_intermediates": [
+    {
+      "id": 4,
+      "title": "Waiting to Exhale (1995)",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supported_routes": [
+        [
+          "Drama",
+          "Drama"
+        ],
+        [
+          "Comedy",
+          "Comedy"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    }
+  ],
+  "parsed_path": [
+    "Waiting to Exhale (1995)",
+    "League of Their Own, A (1992)"
+  ],
+  "parse_success": true,
+  "target_appended_by_normalization": true,
+  "stop_reason": "invalid_llm_selection_after_retries",
+  "path_length": 2,
+  "static_route_set_size": 4,
+  "distinct_start_interest_count": 4,
+  "distinct_target_attribute_count": 2,
+  "selected_items_supporting_multiple_routes": 1,
+  "mean_selected_item_route_support_count": 2,
+  "guard_triggered": false,
+  "guard_trigger_step": null,
+  "guard_trigger_detail": null,
+  "invalid_llm_outputs": 3,
+  "llm_retry_events": 1,
+  "total_llm_generations": 4,
+  "generation_successful": true,
+  "early_stop": true,
+  "sasrec_used_during_planning": false,
+  "elapsed_seconds": 0.9434676999226213
+}

@@ -1,0 +1,14 @@
+{
+  "ValidRate": 1.0,
+  "ComplianceRate": 1.0,
+  "IoI": 2.3745645592687077,
+  "IoR": 416,
+  "ProxyAcceptability": 0.6067911714418586,
+  "Coherence": 0.9333333333333333,
+  "PHRR": 0.0,
+  "HistoryReuseRate": 0.0,
+  "NewIntermediateCount": 3.6,
+  "NormalizedTargetLastRate": 1.0,
+  "VALID_PATH_COUNT": 10,
+  "TOTAL_PATH_COUNT": 10
+}

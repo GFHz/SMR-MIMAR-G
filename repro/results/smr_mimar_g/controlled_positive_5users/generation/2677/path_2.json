@@ -1,0 +1,2278 @@
+{
+  "method": "SMR-MIMAR-G",
+  "protocol": "OFFLINE-POSITIVE",
+  "user_id": 2677,
+  "path_index": 2,
+  "target": {
+    "id": 1359,
+    "title": "Jingle All the Way (1996)",
+    "genres": [
+      "Adventure",
+      "Children's",
+      "Comedy"
+    ]
+  },
+  "long_term_interest_profile": {
+    "Action": {
+      "score": 0.6209090909090909,
+      "frequency": 0.45454545454545453,
+      "persistence": 1.0,
+      "recency": 0.46818181818181814,
+      "count": 10
+    },
+    "Adventure": {
+      "score": 0.3136363636363636,
+      "frequency": 0.09090909090909091,
+      "persistence": 0.5,
+      "recency": 0.5909090909090909,
+      "count": 2
+    },
+    "Crime": {
+      "score": 0.16136363636363638,
+      "frequency": 0.09090909090909091,
+      "persistence": 0.25,
+      "recency": 0.20454545454545453,
+      "count": 2
+    },
+    "Drama": {
+      "score": 0.5579545454545455,
+      "frequency": 0.36363636363636365,
+      "persistence": 1.0,
+      "recency": 0.3806818181818182,
+      "count": 8
+    },
+    "Mystery": {
+      "score": 0.36363636363636365,
+      "frequency": 0.09090909090909091,
+      "persistence": 0.5,
+      "recency": 0.8409090909090908,
+      "count": 2
+    },
+    "Romance": {
+      "score": 0.5154545454545454,
+      "frequency": 0.22727272727272727,
+      "persistence": 1.0,
+      "recency": 0.509090909090909,
+      "count": 5
+    },
+    "Sci-Fi": {
+      "score": 0.16136363636363638,
+      "frequency": 0.09090909090909091,
+      "persistence": 0.25,
+      "recency": 0.20454545454545453,
+      "count": 2
+    },
+    "Thriller": {
+      "score": 0.78125,
+      "frequency": 0.7272727272727273,
+      "persistence": 1.0,
+      "recency": 0.5880681818181818,
+      "count": 16
+    },
+    "War": {
+      "score": 0.1159090909090909,
+      "frequency": 0.045454545454545456,
+      "persistence": 0.25,
+      "recency": 0.09090909090909091,
+      "count": 1
+    }
+  },
+  "top_interests": [
+    {
+      "genre": "Thriller",
+      "L": 0.78125,
+      "score": 0.78125,
+      "frequency": 0.7272727272727273,
+      "persistence": 1.0,
+      "recency": 0.5880681818181818,
+      "count": 16
+    },
+    {
+      "genre": "Action",
+      "L": 0.6209090909090909,
+      "score": 0.6209090909090909,
+      "frequency": 0.45454545454545453,
+      "persistence": 1.0,
+      "recency": 0.46818181818181814,
+      "count": 10
+    },
+    {
+      "genre": "Drama",
+      "L": 0.5579545454545455,
+      "score": 0.5579545454545455,
+      "frequency": 0.36363636363636365,
+      "persistence": 1.0,
+      "recency": 0.3806818181818182,
+      "count": 8
+    },
+    {
+      "genre": "Romance",
+      "L": 0.5154545454545454,
+      "score": 0.5154545454545454,
+      "frequency": 0.22727272727272727,
+      "persistence": 1.0,
+      "recency": 0.509090909090909,
+      "count": 5
+    },
+    {
+      "genre": "Mystery",
+      "L": 0.36363636363636365,
+      "score": 0.36363636363636365,
+      "frequency": 0.09090909090909091,
+      "persistence": 0.5,
+      "recency": 0.8409090909090908,
+      "count": 2
+    }
+  ],
+  "all_feasible_routes": [
+    {
+      "interest": "Action",
+      "target_genre": "Adventure",
+      "L": 0.6209090909090909,
+      "count_interest": 503,
+      "count_target_genre": 283,
+      "count_joint": 128,
+      "C": 0.33926007937419117,
+      "feasible": true,
+      "route_prior": 0.31909620563043917
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Adventure",
+      "L": 0.78125,
+      "count_interest": 492,
+      "count_target_genre": 283,
+      "count_joint": 31,
+      "C": 0.08307797930226846,
+      "feasible": true,
+      "route_prior": 0.29836089379068054
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Comedy",
+      "L": 0.78125,
+      "count_interest": 492,
+      "count_target_genre": 1200,
+      "count_joint": 31,
+      "C": 0.040344888487889904,
+      "feasible": true,
+      "route_prior": 0.28554096654636696
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Children's",
+      "L": 0.78125,
+      "count_interest": 492,
+      "count_target_genre": 251,
+      "count_joint": 1,
+      "C": 0.002845644134226621,
+      "feasible": true,
+      "route_prior": 0.27429119324026796
+    },
+    {
+      "interest": "Romance",
+      "target_genre": "Comedy",
+      "L": 0.5154545454545454,
+      "count_interest": 471,
+      "count_target_genre": 1200,
+      "count_joint": 204,
+      "C": 0.27134954071899153,
+      "feasible": true,
+      "route_prior": 0.26181395312478833
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Comedy",
+      "L": 0.5579545454545455,
+      "count_interest": 1603,
+      "count_target_genre": 1200,
+      "count_joint": 226,
+      "C": 0.1629487581266123,
+      "feasible": true,
+      "route_prior": 0.2441687183470746
+    },
+    {
+      "interest": "Action",
+      "target_genre": "Comedy",
+      "L": 0.6209090909090909,
+      "count_interest": 503,
+      "count_target_genre": 1200,
+      "count_joint": 65,
+      "C": 0.08366402246329206,
+      "feasible": true,
+      "route_prior": 0.2424173885571694
+    },
+    {
+      "interest": "Action",
+      "target_genre": "Children's",
+      "L": 0.6209090909090909,
+      "count_interest": 503,
+      "count_target_genre": 251,
+      "count_joint": 13,
+      "C": 0.03658663763583309,
+      "feasible": true,
+      "route_prior": 0.22829417310893171
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Adventure",
+      "L": 0.5579545454545455,
+      "count_interest": 1603,
+      "count_target_genre": 283,
+      "count_joint": 33,
+      "C": 0.04899524807379942,
+      "feasible": true,
+      "route_prior": 0.20998266533123072
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Children's",
+      "L": 0.5579545454545455,
+      "count_interest": 1603,
+      "count_target_genre": 251,
+      "count_joint": 27,
+      "C": 0.04256573552018102,
+      "feasible": true,
+      "route_prior": 0.2080538115651452
+    },
+    {
+      "interest": "Romance",
+      "target_genre": "Adventure",
+      "L": 0.5154545454545454,
+      "count_interest": 471,
+      "count_target_genre": 283,
+      "count_joint": 27,
+      "C": 0.07395373161113517,
+      "feasible": true,
+      "route_prior": 0.20259521039243142
+    },
+    {
+      "interest": "Romance",
+      "target_genre": "Children's",
+      "L": 0.5154545454545454,
+      "count_interest": 471,
+      "count_target_genre": 251,
+      "count_joint": 7,
+      "C": 0.020358732014227346,
+      "feasible": true,
+      "route_prior": 0.18651671051335908
+    },
+    {
+      "interest": "Mystery",
+      "target_genre": "Comedy",
+      "L": 0.36363636363636365,
+      "count_interest": 106,
+      "count_target_genre": 1200,
+      "count_joint": 13,
+      "C": 0.036450190015982875,
+      "feasible": true,
+      "route_prior": 0.13820778427752212
+    },
+    {
+      "interest": "Mystery",
+      "target_genre": "Adventure",
+      "L": 0.36363636363636365,
+      "count_interest": 106,
+      "count_target_genre": 283,
+      "count_joint": 3,
+      "C": 0.01732108545482708,
+      "feasible": true,
+      "route_prior": 0.13246905290917538
+    },
+    {
+      "interest": "Mystery",
+      "target_genre": "Children's",
+      "L": 0.36363636363636365,
+      "count_interest": 106,
+      "count_target_genre": 251,
+      "count_joint": 2,
+      "C": 0.012261404002558568,
+      "feasible": true,
+      "route_prior": 0.13095114847349482
+    }
+  ],
+  "selected_static_route_set": [
+    {
+      "interest": "Action",
+      "target_genre": "Adventure",
+      "L": 0.6209090909090909,
+      "count_interest": 503,
+      "count_target_genre": 283,
+      "count_joint": 128,
+      "C": 0.33926007937419117,
+      "feasible": true,
+      "route_prior": 0.31909620563043917,
+      "diversity_reason": "BOTH"
+    },
+    {
+      "interest": "Thriller",
+      "target_genre": "Comedy",
+      "L": 0.78125,
+      "count_interest": 492,
+      "count_target_genre": 1200,
+      "count_joint": 31,
+      "C": 0.040344888487889904,
+      "feasible": true,
+      "route_prior": 0.28554096654636696,
+      "diversity_reason": "BOTH"
+    },
+    {
+      "interest": "Drama",
+      "target_genre": "Children's",
+      "L": 0.5579545454545455,
+      "count_interest": 1603,
+      "count_target_genre": 251,
+      "count_joint": 27,
+      "C": 0.04256573552018102,
+      "feasible": true,
+      "route_prior": 0.2080538115651452,
+      "diversity_reason": "BOTH"
+    },
+    {
+      "interest": "Romance",
+      "target_genre": "Comedy",
+      "L": 0.5154545454545454,
+      "count_interest": 471,
+      "count_target_genre": 1200,
+      "count_joint": 204,
+      "C": 0.27134954071899153,
+      "feasible": true,
+      "route_prior": 0.26181395312478833,
+      "diversity_reason": "NEW_START_INTEREST"
+    }
+  ],
+  "trajectory": [
+    {
+      "step": 1,
+      "fixed_route_set": [
+        {
+          "interest": "Action",
+          "target_genre": "Adventure",
+          "L": 0.6209090909090909,
+          "count_interest": 503,
+          "count_target_genre": 283,
+          "count_joint": 128,
+          "C": 0.33926007937419117,
+          "feasible": true,
+          "route_prior": 0.31909620563043917,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Thriller",
+          "target_genre": "Comedy",
+          "L": 0.78125,
+          "count_interest": 492,
+          "count_target_genre": 1200,
+          "count_joint": 31,
+          "C": 0.040344888487889904,
+          "feasible": true,
+          "route_prior": 0.28554096654636696,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Drama",
+          "target_genre": "Children's",
+          "L": 0.5579545454545455,
+          "count_interest": 1603,
+          "count_target_genre": 251,
+          "count_joint": 27,
+          "C": 0.04256573552018102,
+          "feasible": true,
+          "route_prior": 0.2080538115651452,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Romance",
+          "target_genre": "Comedy",
+          "L": 0.5154545454545454,
+          "count_interest": 471,
+          "count_target_genre": 1200,
+          "count_joint": 204,
+          "C": 0.27134954071899153,
+          "feasible": true,
+          "route_prior": 0.26181395312478833,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [],
+      "legal_candidate_count": 15,
+      "legal_candidates": [
+        {
+          "id": 169,
+          "title": "Free Willy 2: The Adventure Home (1995)",
+          "genres": [
+            "Adventure",
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Children's"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 295,
+          "title": "Pyromaniac's Love Story, A (1995)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 462,
+          "title": "Good Man in Africa, A (1994)",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 471,
+          "title": "Hudsucker Proxy, The (1994)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 691,
+          "title": "Mrs. Winterbourne (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 852,
+          "title": "Tin Cup (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 911,
+          "title": "Charade (1963)",
+          "genres": [
+            "Comedy",
+            "Mystery",
+            "Romance",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Thriller",
+              "Comedy"
+            ],
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 2,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 915,
+          "title": "Sabrina (1954)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1468,
+          "title": "Booty Call (1997)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1595,
+          "title": "Free Willy 3: The Rescue (1997)",
+          "genres": [
+            "Adventure",
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Children's"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2344,
+          "title": "Runaway Train (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2366,
+          "title": "King Kong (1933)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Horror"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2370,
+          "title": "Emerald Forest, The (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3501,
+          "title": "Murphy's Romance (1985)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3743,
+          "title": "Boys and Girls (2000)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Charade (1963)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Mystery\",\n      \"Romance\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Thriller\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Free Willy 2: The Adventure Home (1995)",
+          "Pyromaniac's Love Story, A (1995)",
+          "Good Man in Africa, A (1994)",
+          "Hudsucker Proxy, The (1994)",
+          "Mrs. Winterbourne (1996)",
+          "Tin Cup (1996)",
+          "Charade (1963)",
+          "Sabrina (1954)",
+          "Booty Call (1997)",
+          "Free Willy 3: The Rescue (1997)",
+          "Runaway Train (1985)",
+          "King Kong (1933)",
+          "Emerald Forest, The (1985)",
+          "Murphy's Romance (1985)",
+          "Boys and Girls (2000)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Charade (1963)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Mystery\",\n      \"Romance\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Thriller\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Free Willy 2: The Adventure Home (1995)",
+              "Pyromaniac's Love Story, A (1995)",
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Charade (1963)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Charade (1963)",
+          "parse_result": {
+            "success": true,
+            "title": "Charade (1963)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Charade (1963)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 911,
+        "title": "Charade (1963)",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "supported_routes": [
+          [
+            "Thriller",
+            "Comedy"
+          ],
+          [
+            "Romance",
+            "Comedy"
+          ]
+        ],
+        "route_support_count": 2,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": true,
+      "target_overlap_guard": {
+        "step": 1,
+        "title": "Charade (1963)",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "target_overlap": 0.3333333333333333,
+        "previous_target_overlap": null,
+        "new_target_overlap": 0.3333333333333333,
+        "overlap_delta": null,
+        "guard_triggered": false,
+        "first_item_bypass": true
+      },
+      "rejected_for_path_item": null,
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Charade (1963)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Mystery\",\n      \"Romance\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Thriller\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Free Willy 2: The Adventure Home (1995)",
+              "Pyromaniac's Love Story, A (1995)",
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Charade (1963)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Charade (1963)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": []\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Charade (1963)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Mystery\",\n      \"Romance\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Thriller\",\n        \"Comedy\"\n      ],\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 2\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:35:16.534681Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Charade (1963)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":425049800,\"load_duration\":1823600,\"prompt_eval_count\":2179,\"prompt_eval_cached_count\":1088,\"prompt_eval_duration\":307498000,\"eval_count\":9,\"eval_duration\":106404000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:35:16.534681Z",
+              "message": {
+                "role": "assistant",
+                "content": "Charade (1963)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 425049800,
+              "load_duration": 1823600,
+              "prompt_eval_count": 2179,
+              "prompt_eval_cached_count": 1088,
+              "prompt_eval_duration": 307498000,
+              "eval_count": 9,
+              "eval_duration": 106404000
+            },
+            "elapsed_seconds": 0.45033599995076656
+          }
+        }
+      ],
+      "status": "running"
+    },
+    {
+      "step": 2,
+      "fixed_route_set": [
+        {
+          "interest": "Action",
+          "target_genre": "Adventure",
+          "L": 0.6209090909090909,
+          "count_interest": 503,
+          "count_target_genre": 283,
+          "count_joint": 128,
+          "C": 0.33926007937419117,
+          "feasible": true,
+          "route_prior": 0.31909620563043917,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Thriller",
+          "target_genre": "Comedy",
+          "L": 0.78125,
+          "count_interest": 492,
+          "count_target_genre": 1200,
+          "count_joint": 31,
+          "C": 0.040344888487889904,
+          "feasible": true,
+          "route_prior": 0.28554096654636696,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Drama",
+          "target_genre": "Children's",
+          "L": 0.5579545454545455,
+          "count_interest": 1603,
+          "count_target_genre": 251,
+          "count_joint": 27,
+          "C": 0.04256573552018102,
+          "feasible": true,
+          "route_prior": 0.2080538115651452,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Romance",
+          "target_genre": "Comedy",
+          "L": 0.5154545454545454,
+          "count_interest": 471,
+          "count_target_genre": 1200,
+          "count_joint": 204,
+          "C": 0.27134954071899153,
+          "feasible": true,
+          "route_prior": 0.26181395312478833,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [
+        "Charade (1963)"
+      ],
+      "legal_candidate_count": 14,
+      "legal_candidates": [
+        {
+          "id": 169,
+          "title": "Free Willy 2: The Adventure Home (1995)",
+          "genres": [
+            "Adventure",
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Children's"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 295,
+          "title": "Pyromaniac's Love Story, A (1995)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 462,
+          "title": "Good Man in Africa, A (1994)",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 471,
+          "title": "Hudsucker Proxy, The (1994)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 691,
+          "title": "Mrs. Winterbourne (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 852,
+          "title": "Tin Cup (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 915,
+          "title": "Sabrina (1954)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1468,
+          "title": "Booty Call (1997)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1595,
+          "title": "Free Willy 3: The Rescue (1997)",
+          "genres": [
+            "Adventure",
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Children's"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2344,
+          "title": "Runaway Train (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2366,
+          "title": "King Kong (1933)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Horror"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2370,
+          "title": "Emerald Forest, The (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3501,
+          "title": "Murphy's Romance (1985)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3743,
+          "title": "Boys and Girls (2000)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Free Willy 2: The Adventure Home (1995)",
+          "Pyromaniac's Love Story, A (1995)",
+          "Good Man in Africa, A (1994)",
+          "Hudsucker Proxy, The (1994)",
+          "Mrs. Winterbourne (1996)",
+          "Tin Cup (1996)",
+          "Sabrina (1954)",
+          "Booty Call (1997)",
+          "Free Willy 3: The Rescue (1997)",
+          "Runaway Train (1985)",
+          "King Kong (1933)",
+          "Emerald Forest, The (1985)",
+          "Murphy's Romance (1985)",
+          "Boys and Girls (2000)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Free Willy 2: The Adventure Home (1995)",
+              "Pyromaniac's Love Story, A (1995)",
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Pyromaniac's Love Story, A (1995)",
+          "parse_result": {
+            "success": true,
+            "title": "Pyromaniac's Love Story, A (1995)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Pyromaniac's Love Story, A (1995)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 295,
+        "title": "Pyromaniac's Love Story, A (1995)",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "supported_routes": [
+          [
+            "Romance",
+            "Comedy"
+          ]
+        ],
+        "route_support_count": 1,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": true,
+      "target_overlap_guard": {
+        "step": 2,
+        "title": "Pyromaniac's Love Story, A (1995)",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "target_overlap": 0.3333333333333333,
+        "previous_target_overlap": 0.3333333333333333,
+        "new_target_overlap": 0.3333333333333333,
+        "overlap_delta": 0.0,
+        "guard_triggered": false,
+        "first_item_bypass": false
+      },
+      "rejected_for_path_item": null,
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Free Willy 2: The Adventure Home (1995)",
+              "Pyromaniac's Love Story, A (1995)",
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Pyromaniac's Love Story, A (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Pyromaniac's Love Story, A (1995)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:35:17.0783671Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Pyromaniac's Love Story, A (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":518217200,\"load_duration\":2077800,\"prompt_eval_count\":2102,\"prompt_eval_cached_count\":1088,\"prompt_eval_duration\":299417000,\"eval_count\":16,\"eval_duration\":207715000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:35:17.0783671Z",
+              "message": {
+                "role": "assistant",
+                "content": "Pyromaniac's Love Story, A (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 518217200,
+              "load_duration": 2077800,
+              "prompt_eval_count": 2102,
+              "prompt_eval_cached_count": 1088,
+              "prompt_eval_duration": 299417000,
+              "eval_count": 16,
+              "eval_duration": 207715000
+            },
+            "elapsed_seconds": 0.542346499976702
+          }
+        }
+      ],
+      "status": "running"
+    },
+    {
+      "step": 3,
+      "fixed_route_set": [
+        {
+          "interest": "Action",
+          "target_genre": "Adventure",
+          "L": 0.6209090909090909,
+          "count_interest": 503,
+          "count_target_genre": 283,
+          "count_joint": 128,
+          "C": 0.33926007937419117,
+          "feasible": true,
+          "route_prior": 0.31909620563043917,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Thriller",
+          "target_genre": "Comedy",
+          "L": 0.78125,
+          "count_interest": 492,
+          "count_target_genre": 1200,
+          "count_joint": 31,
+          "C": 0.040344888487889904,
+          "feasible": true,
+          "route_prior": 0.28554096654636696,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Drama",
+          "target_genre": "Children's",
+          "L": 0.5579545454545455,
+          "count_interest": 1603,
+          "count_target_genre": 251,
+          "count_joint": 27,
+          "C": 0.04256573552018102,
+          "feasible": true,
+          "route_prior": 0.2080538115651452,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Romance",
+          "target_genre": "Comedy",
+          "L": 0.5154545454545454,
+          "count_interest": 471,
+          "count_target_genre": 1200,
+          "count_joint": 204,
+          "C": 0.27134954071899153,
+          "feasible": true,
+          "route_prior": 0.26181395312478833,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [
+        "Charade (1963)",
+        "Pyromaniac's Love Story, A (1995)"
+      ],
+      "legal_candidate_count": 13,
+      "legal_candidates": [
+        {
+          "id": 169,
+          "title": "Free Willy 2: The Adventure Home (1995)",
+          "genres": [
+            "Adventure",
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Children's"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 462,
+          "title": "Good Man in Africa, A (1994)",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 471,
+          "title": "Hudsucker Proxy, The (1994)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 691,
+          "title": "Mrs. Winterbourne (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 852,
+          "title": "Tin Cup (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 915,
+          "title": "Sabrina (1954)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1468,
+          "title": "Booty Call (1997)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1595,
+          "title": "Free Willy 3: The Rescue (1997)",
+          "genres": [
+            "Adventure",
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Children's"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2344,
+          "title": "Runaway Train (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2366,
+          "title": "King Kong (1933)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Horror"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2370,
+          "title": "Emerald Forest, The (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3501,
+          "title": "Murphy's Romance (1985)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3743,
+          "title": "Boys and Girls (2000)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Free Willy 2: The Adventure Home (1995)",
+          "Good Man in Africa, A (1994)",
+          "Hudsucker Proxy, The (1994)",
+          "Mrs. Winterbourne (1996)",
+          "Tin Cup (1996)",
+          "Sabrina (1954)",
+          "Booty Call (1997)",
+          "Free Willy 3: The Rescue (1997)",
+          "Runaway Train (1985)",
+          "King Kong (1933)",
+          "Emerald Forest, The (1985)",
+          "Murphy's Romance (1985)",
+          "Boys and Girls (2000)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Free Willy 2: The Adventure Home (1995)",
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Free Willy 2: The Adventure Home (1995)",
+          "parse_result": {
+            "success": true,
+            "title": "Free Willy 2: The Adventure Home (1995)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Free Willy 2: The Adventure Home (1995)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 169,
+        "title": "Free Willy 2: The Adventure Home (1995)",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama"
+        ],
+        "supported_routes": [
+          [
+            "Drama",
+            "Children's"
+          ]
+        ],
+        "route_support_count": 1,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": true,
+      "target_overlap_guard": {
+        "step": 3,
+        "title": "Free Willy 2: The Adventure Home (1995)",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama"
+        ],
+        "target_overlap": 0.6666666666666666,
+        "previous_target_overlap": 0.3333333333333333,
+        "new_target_overlap": 0.6666666666666666,
+        "overlap_delta": 0.3333333333333333,
+        "guard_triggered": false,
+        "first_item_bypass": false
+      },
+      "rejected_for_path_item": null,
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Free Willy 2: The Adventure Home (1995)",
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Free Willy 2: The Adventure Home (1995)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Free Willy 2: The Adventure Home (1995)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:35:17.5755795Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Free Willy 2: The Adventure Home (1995)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":472865900,\"load_duration\":2312800,\"prompt_eval_count\":2047,\"prompt_eval_cached_count\":1098,\"prompt_eval_duration\":260360000,\"eval_count\":16,\"eval_duration\":202279000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:35:17.5755795Z",
+              "message": {
+                "role": "assistant",
+                "content": "Free Willy 2: The Adventure Home (1995)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 472865900,
+              "load_duration": 2312800,
+              "prompt_eval_count": 2047,
+              "prompt_eval_cached_count": 1098,
+              "prompt_eval_duration": 260360000,
+              "eval_count": 16,
+              "eval_duration": 202279000
+            },
+            "elapsed_seconds": 0.4969679000787437
+          }
+        }
+      ],
+      "status": "running"
+    },
+    {
+      "step": 4,
+      "fixed_route_set": [
+        {
+          "interest": "Action",
+          "target_genre": "Adventure",
+          "L": 0.6209090909090909,
+          "count_interest": 503,
+          "count_target_genre": 283,
+          "count_joint": 128,
+          "C": 0.33926007937419117,
+          "feasible": true,
+          "route_prior": 0.31909620563043917,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Thriller",
+          "target_genre": "Comedy",
+          "L": 0.78125,
+          "count_interest": 492,
+          "count_target_genre": 1200,
+          "count_joint": 31,
+          "C": 0.040344888487889904,
+          "feasible": true,
+          "route_prior": 0.28554096654636696,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Drama",
+          "target_genre": "Children's",
+          "L": 0.5579545454545455,
+          "count_interest": 1603,
+          "count_target_genre": 251,
+          "count_joint": 27,
+          "C": 0.04256573552018102,
+          "feasible": true,
+          "route_prior": 0.2080538115651452,
+          "diversity_reason": "BOTH"
+        },
+        {
+          "interest": "Romance",
+          "target_genre": "Comedy",
+          "L": 0.5154545454545454,
+          "count_interest": 471,
+          "count_target_genre": 1200,
+          "count_joint": 204,
+          "C": 0.27134954071899153,
+          "feasible": true,
+          "route_prior": 0.26181395312478833,
+          "diversity_reason": "NEW_START_INTEREST"
+        }
+      ],
+      "current_generated_path": [
+        "Charade (1963)",
+        "Pyromaniac's Love Story, A (1995)",
+        "Free Willy 2: The Adventure Home (1995)"
+      ],
+      "legal_candidate_count": 12,
+      "legal_candidates": [
+        {
+          "id": 462,
+          "title": "Good Man in Africa, A (1994)",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 471,
+          "title": "Hudsucker Proxy, The (1994)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 691,
+          "title": "Mrs. Winterbourne (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 852,
+          "title": "Tin Cup (1996)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 915,
+          "title": "Sabrina (1954)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1468,
+          "title": "Booty Call (1997)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 1595,
+          "title": "Free Willy 3: The Rescue (1997)",
+          "genres": [
+            "Adventure",
+            "Children's",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Drama",
+              "Children's"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2344,
+          "title": "Runaway Train (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2366,
+          "title": "King Kong (1933)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Horror"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 2370,
+          "title": "Emerald Forest, The (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3501,
+          "title": "Murphy's Romance (1985)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        {
+          "id": 3743,
+          "title": "Boys and Girls (2000)",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "supported_routes": [
+            [
+              "Romance",
+              "Comedy"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        }
+      ],
+      "prompt": {
+        "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+        "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\",\n    \"Free Willy 2: The Adventure Home (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+        "allowed_titles": [
+          "Good Man in Africa, A (1994)",
+          "Hudsucker Proxy, The (1994)",
+          "Mrs. Winterbourne (1996)",
+          "Tin Cup (1996)",
+          "Sabrina (1954)",
+          "Booty Call (1997)",
+          "Free Willy 3: The Rescue (1997)",
+          "Runaway Train (1985)",
+          "King Kong (1933)",
+          "Emerald Forest, The (1985)",
+          "Murphy's Romance (1985)",
+          "Boys and Girls (2000)"
+        ]
+      },
+      "llm_attempts": [
+        {
+          "attempt": 1,
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\",\n    \"Free Willy 2: The Adventure Home (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Runaway Train (1985)",
+          "parse_result": {
+            "success": true,
+            "title": "Runaway Train (1985)",
+            "error": null
+          }
+        }
+      ],
+      "llm_retry_count": 0,
+      "parser_result": {
+        "success": true,
+        "title": "Runaway Train (1985)",
+        "error": null
+      },
+      "selected_item": {
+        "id": 2344,
+        "title": "Runaway Train (1985)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "supported_routes": [
+          [
+            "Action",
+            "Adventure"
+          ]
+        ],
+        "route_support_count": 1,
+        "support_tier": "DIRECT"
+      },
+      "selected_item_accepted": false,
+      "target_overlap_guard": {
+        "step": 4,
+        "title": "Runaway Train (1985)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "target_overlap": 0.3333333333333333,
+        "previous_target_overlap": 0.6666666666666666,
+        "new_target_overlap": 0.3333333333333333,
+        "overlap_delta": -0.3333333333333333,
+        "guard_triggered": true,
+        "first_item_bypass": false,
+        "rejected_for_path_item": {
+          "id": 2344,
+          "title": "Runaway Train (1985)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Thriller"
+          ],
+          "supported_routes": [
+            [
+              "Action",
+              "Adventure"
+            ]
+          ],
+          "route_support_count": 1,
+          "support_tier": "DIRECT"
+        },
+        "final_accepted_intermediate_sequence": [
+          "Charade (1963)",
+          "Pyromaniac's Love Story, A (1995)",
+          "Free Willy 2: The Adventure Home (1995)"
+        ],
+        "stop_reason": "TARGET_OVERLAP_DECREASE"
+      },
+      "rejected_for_path_item": {
+        "id": 2344,
+        "title": "Runaway Train (1985)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "supported_routes": [
+          [
+            "Action",
+            "Adventure"
+          ]
+        ],
+        "route_support_count": 1,
+        "support_tier": "DIRECT"
+      },
+      "api_calls": [
+        {
+          "prompt": {
+            "system_prompt": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles.",
+            "user_prompt": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\",\n    \"Free Willy 2: The Adventure Home (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above.",
+            "allowed_titles": [
+              "Good Man in Africa, A (1994)",
+              "Hudsucker Proxy, The (1994)",
+              "Mrs. Winterbourne (1996)",
+              "Tin Cup (1996)",
+              "Sabrina (1954)",
+              "Booty Call (1997)",
+              "Free Willy 3: The Rescue (1997)",
+              "Runaway Train (1985)",
+              "King Kong (1933)",
+              "Emerald Forest, The (1985)",
+              "Murphy's Romance (1985)",
+              "Boys and Girls (2000)"
+            ]
+          },
+          "raw_output": "Runaway Train (1985)",
+          "api": {
+            "request": {
+              "model": "qwen3:4b-q4_K_M",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "Select exactly one next movie from the supplied catalog-grounded candidates.\nThe routes are simultaneous migration directions, not a single route to follow.\nA candidate may support multiple routes at the same time.\nYou do not need to select one route before selecting the movie.\nChoose the candidate that forms the most natural next step in the overall migration toward the target.\nROUTE LABELS ARE GENRE CONCEPTS, NOT MOVIE TITLES.\nThe target item is reference only and must not be selected.\nOutput exactly one title copied verbatim from ALLOWED CANDIDATES.\nDo not explain, number, rewrite, abbreviate, or output multiple titles."
+                },
+                {
+                  "role": "user",
+                  "content": "{\n  \"demographics\": {\n    \"age\": \"35-44\",\n    \"gender\": \"Female\",\n    \"occupation\": \"executive/managerial\"\n  },\n  \"frozen_long_term_multi_interest_profile\": [\n    {\n      \"genre\": \"Thriller\",\n      \"L\": 0.78125,\n      \"score\": 0.78125,\n      \"frequency\": 0.7272727272727273,\n      \"persistence\": 1.0,\n      \"recency\": 0.5880681818181818,\n      \"count\": 16\n    },\n    {\n      \"genre\": \"Action\",\n      \"L\": 0.6209090909090909,\n      \"score\": 0.6209090909090909,\n      \"frequency\": 0.45454545454545453,\n      \"persistence\": 1.0,\n      \"recency\": 0.46818181818181814,\n      \"count\": 10\n    },\n    {\n      \"genre\": \"Drama\",\n      \"L\": 0.5579545454545455,\n      \"score\": 0.5579545454545455,\n      \"frequency\": 0.36363636363636365,\n      \"persistence\": 1.0,\n      \"recency\": 0.3806818181818182,\n      \"count\": 8\n    },\n    {\n      \"genre\": \"Romance\",\n      \"L\": 0.5154545454545454,\n      \"score\": 0.5154545454545454,\n      \"frequency\": 0.22727272727272727,\n      \"persistence\": 1.0,\n      \"recency\": 0.509090909090909,\n      \"count\": 5\n    },\n    {\n      \"genre\": \"Mystery\",\n      \"L\": 0.36363636363636365,\n      \"score\": 0.36363636363636365,\n      \"frequency\": 0.09090909090909091,\n      \"persistence\": 0.5,\n      \"recency\": 0.8409090909090908,\n      \"count\": 2\n    }\n  ],\n  \"target_reference_only\": {\n    \"id\": 1359,\n    \"title\": \"Jingle All the Way (1996)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Comedy\"\n    ]\n  },\n  \"all_target_genres\": [\n    \"Adventure\",\n    \"Children's\",\n    \"Comedy\"\n  ],\n  \"static_selected_route_set\": [\n    {\n      \"start_interest\": \"Action\",\n      \"target_attribute\": \"Adventure\",\n      \"route_prior\": 0.31909620563043917\n    },\n    {\n      \"start_interest\": \"Thriller\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.28554096654636696\n    },\n    {\n      \"start_interest\": \"Drama\",\n      \"target_attribute\": \"Children's\",\n      \"route_prior\": 0.2080538115651452\n    },\n    {\n      \"start_interest\": \"Romance\",\n      \"target_attribute\": \"Comedy\",\n      \"route_prior\": 0.26181395312478833\n    }\n  ],\n  \"current_generated_path\": [\n    \"Charade (1963)\",\n    \"Pyromaniac's Love Story, A (1995)\",\n    \"Free Willy 2: The Adventure Home (1995)\"\n  ]\n}\n\nALLOWED CANDIDATES:\n[\n  {\n    \"title\": \"Good Man in Africa, A (1994)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Hudsucker Proxy, The (1994)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Mrs. Winterbourne (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Tin Cup (1996)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Sabrina (1954)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Booty Call (1997)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Free Willy 3: The Rescue (1997)\",\n    \"genres\": [\n      \"Adventure\",\n      \"Children's\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Drama\",\n        \"Children's\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Runaway Train (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\",\n      \"Thriller\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"King Kong (1933)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Horror\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Emerald Forest, The (1985)\",\n    \"genres\": [\n      \"Action\",\n      \"Adventure\",\n      \"Drama\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Action\",\n        \"Adventure\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Murphy's Romance (1985)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  },\n  {\n    \"title\": \"Boys and Girls (2000)\",\n    \"genres\": [\n      \"Comedy\",\n      \"Romance\"\n    ],\n    \"supported_routes\": [\n      [\n        \"Romance\",\n        \"Comedy\"\n      ]\n    ],\n    \"route_support_count\": 1\n  }\n]\n\nYour entire response must be exactly one title copied verbatim from the list above."
+                }
+              ],
+              "stream": false,
+              "think": false,
+              "keep_alive": "5m",
+              "options": {
+                "temperature": 0.1,
+                "num_ctx": 4096,
+                "seed": 42,
+                "num_predict": 2048
+              }
+            },
+            "raw_http_response": "{\"model\":\"qwen3:4b-q4_K_M\",\"created_at\":\"2026-09-05T18:35:17.9804973Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Runaway Train (1985)\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":379033900,\"load_duration\":1552200,\"prompt_eval_count\":1988,\"prompt_eval_cached_count\":1115,\"prompt_eval_duration\":248268000,\"eval_count\":10,\"eval_duration\":120921000}",
+            "response": {
+              "model": "qwen3:4b-q4_K_M",
+              "created_at": "2026-09-05T18:35:17.9804973Z",
+              "message": {
+                "role": "assistant",
+                "content": "Runaway Train (1985)"
+              },
+              "done": true,
+              "done_reason": "stop",
+              "total_duration": 379033900,
+              "load_duration": 1552200,
+              "prompt_eval_count": 1988,
+              "prompt_eval_cached_count": 1115,
+              "prompt_eval_duration": 248268000,
+              "eval_count": 10,
+              "eval_duration": 120921000
+            },
+            "elapsed_seconds": 0.4043788999551907
+          }
+        }
+      ],
+      "status": "target_overlap_decrease"
+    }
+  ],
+  "accepted_intermediates": [
+    {
+      "id": 911,
+      "title": "Charade (1963)",
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Romance",
+        "Thriller"
+      ],
+      "supported_routes": [
+        [
+          "Thriller",
+          "Comedy"
+        ],
+        [
+          "Romance",
+          "Comedy"
+        ]
+      ],
+      "route_support_count": 2,
+      "support_tier": "DIRECT"
+    },
+    {
+      "id": 295,
+      "title": "Pyromaniac's Love Story, A (1995)",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "supported_routes": [
+        [
+          "Romance",
+          "Comedy"
+        ]
+      ],
+      "route_support_count": 1,
+      "support_tier": "DIRECT"
+    },
+    {
+      "id": 169,
+      "title": "Free Willy 2: The Adventure Home (1995)",
+      "genres": [
+        "Adventure",
+        "Children's",
+        "Drama"
+      ],
+      "supported_routes": [
+        [
+          "Drama",
+          "Children's"
+        ]
+      ],
+      "route_support_count": 1,
+      "support_tier": "DIRECT"
+    }
+  ],
+  "parsed_path": [
+    "Charade (1963)",
+    "Pyromaniac's Love Story, A (1995)",
+    "Free Willy 2: The Adventure Home (1995)",
+    "Jingle All the Way (1996)"
+  ],
+  "parse_success": true,
+  "target_appended_by_normalization": true,
+  "stop_reason": "target_overlap_decrease",
+  "path_length": 4,
+  "static_route_set_size": 4,
+  "distinct_start_interest_count": 4,
+  "distinct_target_attribute_count": 3,
+  "selected_items_supporting_multiple_routes": 1,
+  "mean_selected_item_route_support_count": 1.3333333333333333,
+  "guard_triggered": true,
+  "guard_trigger_step": 4,
+  "guard_trigger_detail": {
+    "step": 4,
+    "title": "Runaway Train (1985)",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ],
+    "target_overlap": 0.3333333333333333,
+    "previous_target_overlap": 0.6666666666666666,
+    "new_target_overlap": 0.3333333333333333,
+    "overlap_delta": -0.3333333333333333,
+    "guard_triggered": true,
+    "first_item_bypass": false,
+    "rejected_for_path_item": {
+      "id": 2344,
+      "title": "Runaway Train (1985)",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Thriller"
+      ],
+      "supported_routes": [
+        [
+          "Action",
+          "Adventure"
+        ]
+      ],
+      "route_support_count": 1,
+      "support_tier": "DIRECT"
+    },
+    "final_accepted_intermediate_sequence": [
+      "Charade (1963)",
+      "Pyromaniac's Love Story, A (1995)",
+      "Free Willy 2: The Adventure Home (1995)"
+    ],
+    "stop_reason": "TARGET_OVERLAP_DECREASE"
+  },
+  "invalid_llm_outputs": 0,
+  "llm_retry_events": 0,
+  "total_llm_generations": 4,
+  "generation_successful": true,
+  "early_stop": true,
+  "sasrec_used_during_planning": false,
+  "elapsed_seconds": 1.9200241999933496
+}

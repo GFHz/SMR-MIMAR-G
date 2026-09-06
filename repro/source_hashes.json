@@ -1,0 +1,19 @@
+{
+  "commit": "fce3ce1bc2b6cc813a5aaa1ec79566300f930ba6",
+  "sha256": {
+    "chatGPT.ipynb": "dc8683d3cc50b487dac2c701ad6f01d281cf1012a29c09bd21796860726d453c",
+    "gemini_lastfm.py": "71b81765cc2a802efdc6ec1b772911566f001b167ae23ab55d2a01fe397c4648",
+    "gemini.ipynb": "daf3b9e5412bb593761c82050ffc497a537f6796a5c47b0dfac6e6240c84f413",
+    "gemini.py": "f8d227fbe288894bf93ddc6f10a9238fa87707e1ff69e451dc55c01a27a9eb03",
+    "imdbUserProfile.ipynb": "f28066a47915210c9f82a9711d6363f19046e53c107db610665aa99d5db6bd86",
+    "lastfmUserProfile.ipynb": "3e7281c60c45ee9c45333453745d6c2699dd3468015d0c04dfbf2f4995afcfbb",
+    "llama.ipynb": "4fcaa03324be47ca68603574a29a8c67c3a3f50c33add4fca94887ffba01c33a",
+    "llm result lastfm.ipynb": "d8bc072b56828c9ebc4205090e2e8da5c6b7861f20871bc287ce3bd1cbd217c0",
+    "llm_result.ipynb": "80ec47869c3c0ca19154450faf95ff3038d62304c5e384b867edb065d931037f",
+    "movielens.ipynb": "9fdb9039f66b0e5781c7c526916745e8affd71102dd02662045120202f57c23b",
+    "movielensUserProfile.ipynb": "20832bb00c9b4d811ab8a7b22f8ea1a1aad8a7c9a2d33db1a6e4a83bf0a435b4",
+    "README.md": "b94cc2f684428fd1b052f4baf70159ee25c131da81f32d07f2e03f282028a259",
+    "score.ipynb": "7e319359b52f0df204c1d9ca92f37f598e5602d4b836a112300f342b06941410",
+    "user_study.ipynb": "1e2cf1af13e9bcd605a140d98fe07cb043f504de69c80d090f2ae43388e09f4c"
+  }
+}

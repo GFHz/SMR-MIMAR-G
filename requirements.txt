@@ -1,0 +1,8 @@
+# Versions verified in the frozen local reproduction environment (Python 3.10).
+numpy==1.26.4
+pandas==2.2.3
+torch==2.8.0
+recbole==1.2.1
+PyYAML==6.0.3
+httpx==0.28.1
+

@@ -1,0 +1,34 @@
+{
+  "method": "SMR-MIMAR-G",
+  "users": [
+    419,
+    5021,
+    2677,
+    3113,
+    2249
+  ],
+  "paths_per_user": 2,
+  "max_intermediate_steps": 6,
+  "candidate_source": "same frozen controlled 100-item pools",
+  "all_valid_accepted_intermediates": "ACCEPT",
+  "guard": "stop before adding candidate when new TargetOverlap < previous accepted TargetOverlap",
+  "no_guard_retry": true,
+  "formal_evaluator_after_generation_only": true,
+  "llm_config": {
+    "model": "qwen3:4b-q4_K_M",
+    "model_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "model_size_bytes": 2620788260,
+    "quantization": "Q4_K_M",
+    "temperature": 0.1,
+    "context_length": 4096,
+    "thinking_mode": false,
+    "seed": 42,
+    "max_output_tokens": 2048,
+    "runtime": "ollama",
+    "runtime_version": "0.33.3",
+    "configuration_label": "adapted reproduction configuration; not original paper sampling settings",
+    "research_label": "Adapted reproduction of LLM-IPP using a local open-source LLM.",
+    "max_retries": 2,
+    "request_timeout_seconds": 180
+  }
+}

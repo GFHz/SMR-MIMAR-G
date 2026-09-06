@@ -1,0 +1,10 @@
+# Adapted CPU-only inference settings, not a training configuration.
+# Architecture/data schema come from the unmodified published ProRL SASRec YAML.
+use_gpu: false
+gpu_id: 0
+worker: 0
+save_dataset: false
+save_dataloaders: false
+show_progress: false
+seed: 2020
+reproducibility: true

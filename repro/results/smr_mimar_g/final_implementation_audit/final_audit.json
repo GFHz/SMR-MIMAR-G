@@ -1,0 +1,80 @@
+{
+  "audit": "FINAL IMPLEMENTATION AUDIT",
+  "method": "SMR-MIMAR-G",
+  "status": "complete",
+  "code_read_only": true,
+  "new_llm_generation_run": false,
+  "formal_evaluator_modified": false,
+  "formulae": {
+    "long_term_interest": "clip_0_1(0.5*frequency + 0.3*persistence + 0.2*recency)",
+    "frequency": "genre occurrence count / full positive-history length",
+    "persistence": "number of four chronological bins containing genre / 4",
+    "recency": "mean of 1-based occurrence position / full history length",
+    "cooccurrence": "N(i,g) / sqrt(N(i)*N(g)); 0 if either marginal count is 0",
+    "route_prior": "0.35*L(i) + 0.30*C(i,g)",
+    "target_overlap": "|set(item genres) intersect set(target genres)| / |set(target genres)|",
+    "guard": "trigger iff new overlap < previous accepted overlap",
+    "IoI": "ln(P_after+1e-12)-ln(P_before+1e-12)",
+    "IoR": "R_before-R_after",
+    "proxy": "mean sequential sigmoid(sequence_embedding dot item_embedding)",
+    "coherence": "mean binary nonempty genre overlap over adjacent pairs in intermediates+target",
+    "history_reuse": "resolved non-target history occurrences / max(all non-target path occurrences,1)",
+    "PHRR": "runner alias of HistoryReuseRate; no independent formula"
+  },
+  "parameters": {
+    "top_k_user_interests": 5,
+    "route_set_size": 4,
+    "top_k_candidates": 20,
+    "max_intermediate_steps": 6,
+    "max_llm_retries": 2,
+    "max_total_generations_per_step": 3,
+    "alpha": 0.35,
+    "gamma": 0.30,
+    "long_term_weights": {"frequency": 0.5, "persistence": 0.3, "recency": 0.2},
+    "temporal_bins": 4,
+    "model": "qwen3:4b-q4_K_M",
+    "model_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "temperature": 0.1,
+    "seed": 42,
+    "context_length": 4096,
+    "max_output_tokens": 2048,
+    "thinking": false
+  },
+  "controlled_experiment": {
+    "users": [419, 5021, 2677, 3113, 2249],
+    "targets": {
+      "419": "Clean Slate (Coup de Torchon) (1981)",
+      "5021": "Drunken Master (Zui quan) (1979)",
+      "2677": "Jingle All the Way (1996)",
+      "3113": "League of Their Own, A (1992)",
+      "2249": "Timecop (1994)"
+    },
+    "paths_per_user": 2,
+    "candidate_pool_size": 100,
+    "offline_feedback": "all parser-valid and guard-valid intermediates accepted",
+    "paths_extracted": 10,
+    "metrics": {
+      "IoI": 2.3745645592687077,
+      "IoR": 416.0,
+      "ProxyAcceptability": 0.6067911714418586,
+      "Coherence": 0.9333333333333333,
+      "mean_path_length_including_target": 4.6,
+      "generation_success": "10/10"
+    }
+  },
+  "implementation_design_discrepancies": [
+    {"severity": "MINOR", "issue": "Prompt labels its interest payload as a multi-interest profile but receives only Top-5 rows, not the full genre table."},
+    {"severity": "MATERIAL", "issue": "Earlier intended description allowed broader candidate support tiers when direct support is small; frozen code implements DIRECT only and no fallback threshold/tier."},
+    {"severity": "MINOR", "issue": "Guard is documented conceptually as pre-add stopping, while code appends through the parent planner and then rolls the item back."},
+    {"severity": "MINOR", "issue": "Guard-blocked item is removed from used_ids; immediate terminal state prevents practical re-entry in this implementation."},
+    {"severity": "MINOR", "issue": "PHRR in experiment outputs is an alias of HistoryReuseRate, not an independently implemented metric."}
+  ],
+  "discrepancy_count": 5,
+  "artifacts": [
+    "FINAL_METHOD_SPEC.md",
+    "FINAL_PARAMETER_TABLE.md",
+    "FINAL_10_PATHS.md",
+    "FINAL_DEFENSE_CHEATSHEET.md",
+    "final_audit.json"
+  ]
+}
