@@ -1,0 +1,42 @@
+{
+  "comparison": "LLM-IPP-style vs SMR-MIMAR-G",
+  "planning_history": "same complete chronological positive history (rating >= 4)",
+  "users": [419, 5021, 2677, 3113, 2249],
+  "paths_per_user": 2,
+  "conditions": {
+    "LLM-IPP-style": {
+      "evaluator_valid_paths": 8,
+      "total_paths": 10,
+      "IoI": 0.10271308370742549,
+      "IoR": 313.125,
+      "ProxyAcceptability": 0.9295724771916867,
+      "Coherence": 0.85,
+      "HistoryReuseRate": 0.46499999999999997,
+      "TargetPresenceRate": 0.9,
+      "TargetLastRate": 0.9
+    },
+    "SMR-MIMAR-G": {
+      "evaluator_valid_paths": 10,
+      "total_paths": 10,
+      "IoI": 2.3745645592687077,
+      "IoR": 416.0,
+      "ProxyAcceptability": 0.6067911714418586,
+      "Coherence": 0.9333333333333333,
+      "HistoryReuseRate": 0.0,
+      "TargetPresenceRate": 1.0,
+      "TargetLastRate": 1.0
+    }
+  },
+  "deltas_smr_minus_llmipp": {
+    "IoI": 2.271851475561282,
+    "IoR": 102.875,
+    "IoR_relative_percent": 32.854291,
+    "ProxyAcceptability": -0.3227813057498281,
+    "Coherence": 0.08333333333333337
+  },
+  "interpretation": "Descriptive five-user pre-study only; no statistical-significance or general-superiority claim.",
+  "target_endpoint_note": "SMR-MIMAR-G target presence and target-last are guaranteed by predefined-target append, not learned success.",
+  "llm_training": false,
+  "formal_evaluator_modified": false,
+  "final_method_modified": false
+}

@@ -1,10 +1,6 @@
-# External data
+# Data
 
-Raw datasets are intentionally not distributed in this repository.
-
-## MovieLens-1M
-
-Obtain MovieLens-1M from GroupLens and place the original files at:
+This repository does not redistribute MovieLens-1M. Download MovieLens-1M from the official GroupLens source and place the original files at:
 
 ```text
 dataset/ml-1m/ratings.dat
@@ -12,28 +8,6 @@ dataset/ml-1m/movies.dat
 dataset/ml-1m/users.dat
 ```
 
-Do not substitute MovieLens Latest. Positive feedback is defined as rating >= 4. The release includes a frozen derived pilot manifest and 100-item candidate pools, but not the raw MovieLens files.
+Do not substitute MovieLens Latest. A positive interaction is a rating `>= 4`. The final controlled comparison uses each selected user's complete chronological positive history.
 
-## ProRL/RecBole evaluator data
-
-Formal-Evaluation-v1 expects the published ProRL RecBole-formatted MovieLens data under:
-
-```text
-external/ProRL/datasets/ml-1m-sas.inter
-external/ProRL/datasets/ml-1m-sas.item
-external/ProRL/datasets/ml-1m-sas.user
-external/ProRL/datasets/ml-1m-sas.test.inter
-```
-
-Follow the provenance described in `repro/evaluators/sasrec/README.md`. These files are not redistributed.
-
-## SASRec checkpoint
-
-The evaluator expects:
-
-```text
-repro/results/evaluator_validation/checkpoints/SASRec-ml-1m-sas.pth
-```
-
-The checkpoint is intentionally excluded. The loader records the pinned ProRL source URL and verifies downloaded bytes against local metadata when prepared in the original environment.
-
+Formal-Evaluation-v1 additionally expects external ProRL/RecBole MovieLens files under `external/ProRL/datasets/` and the public SASRec checkpoint at `repro/results/evaluator_validation/checkpoints/SASRec-ml-1m-sas.pth`. See `repro/evaluators/sasrec/README.md`. These assets are not redistributed.

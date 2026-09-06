@@ -1,0 +1,11 @@
+﻿USER,PATH_ID,FULL_HISTORY_LENGTH,PROMPT_CHARACTER_COUNT,PROMPT_TOKEN_COUNT_IF_AVAILABLE,FORMAT_TURN_PROMPT_TOKEN_COUNT,TOKEN_COUNT_AVAILABLE,CONTEXT_LIMIT,PROMPT_FITS_CONTEXT,FORMAT_TURN_FITS_CONTEXT,RUNTIME_AUTO_TRUNCATION_DETECTED,AUTO_TRUNCATION_BASIS
+419,1,77,4325,1555,2003,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+419,2,77,4325,1555,1937,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+5021,1,95,5110,1925,2467,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+5021,2,95,5110,1925,2435,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+2677,1,22,1743,564,1044,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+2677,2,22,1743,564,1014,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+3113,1,27,1961,639,1127,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+3113,2,27,1961,639,1094,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+2249,1,48,2812,997,1573,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.
+2249,2,48,2812,997,1465,True,4096,True,True,False,Ollama reported evaluated prompt token counts below num_ctx; complete request text is preserved.

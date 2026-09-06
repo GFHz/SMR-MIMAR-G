@@ -1,42 +1,25 @@
-# Final controlled experiment
+# Final experimental protocol
 
-## Cohort and targets
+The final comparison is `LLM-IPP-style` versus `SMR-MIMAR-G`. Both local planners receive the same complete chronological MovieLens-1M positive history (`rating >= 4`). This does not assert that the original LLM-IPP paper uses full history.
 
-| User | Target | Genres |
-|---:|---|---|
-| 419 | Clean Slate (Coup de Torchon) (1981) | Crime |
-| 5021 | Drunken Master (Zui quan) (1979) | Action, Comedy |
-| 2677 | Jingle All the Way (1996) | Adventure, Children's, Comedy |
-| 3113 | League of Their Own, A (1992) | Comedy, Drama |
-| 2249 | Timecop (1994) | Action, Sci-Fi |
+| User | Target | Target genres | History length |
+|---:|---|---|---:|
+| 419 | Clean Slate (Coup de Torchon) (1981) | Crime | 77 |
+| 5021 | Drunken Master (Zui quan) (1979) | Action, Comedy | 95 |
+| 2677 | Jingle All the Way (1996) | Adventure, Children's, Comedy | 22 |
+| 3113 | League of Their Own, A (1992) | Comedy, Drama | 27 |
+| 2249 | Timecop (1994) | Action, Sci-Fi | 48 |
 
-Two paths were generated per user, with at most six intermediates. Every parser-valid, catalog-valid, guard-valid intermediate was treated as accepted. There was no real or simulated user rejection.
+Two paths are generated per user. Frozen `qwen3:4b-q4_K_M` runs through Ollama with temperature 0.1, seed 42, thinking disabled, context 4096, and output budget 2048. Neither planner trains or fine-tunes the LLM.
 
-## Controlled 100-item pools
+LLM-IPP-style receives demographics, all chronological positive movie titles/genres, and target, then implicitly plans a raw path without post-generation repair. SMR-MIMAR-G computes its profile from the same history, constructs static routes, filters the frozen 100-item pool to DIRECT-support candidates, and appends the predefined target by protocol.
 
-Each pool was frozen by adding the user’s Last-20 history, target, and saved Static MI-Bridge direct candidates without duplicates, then shuffling remaining catalog items with `Random(20260905 + user_id)` and filling to 100 unique items. Last-20 is used only in this fairness-pool construction. SMR-MIMAR-G computes interests from the complete positive history and excludes that complete history from intermediate selection.
+Formal-Evaluation-v1 uses the frozen ProRL-style SASRec checkpoint after generation only. It retains its frozen 20-item SASRec evaluation-history protocol, full-vocabulary softmax, 1-based rank, IoI/IoR definitions, Proxy Acceptability, and genre-overlap Coherence. Mapping status is `LIKELY_COMPATIBLE`.
 
-At each step, the method retains only pool movies that directly support at least one route, removes full-history items, used intermediates and target, sorts by MovieLens ID, and exposes at most 20 candidates.
-
-## Local LLM
-
-Ollama 0.33.3 served `qwen3:4b-q4_K_M` (`Q4_K_M`, frozen digest in the example config), with temperature 0.1, seed 42, thinking disabled, context 4096 and output budget 2048. Model binaries are not distributed.
-
-## Formal evaluator
-
-Formal-Evaluation-v1 uses the public ProRL MovieLens-1M SASRec checkpoint post-hoc. Its reconstructed token mapping is marked `LIKELY_COMPATIBLE`, not independently proven identical to an unavailable training-time mapping artifact. SASRec never participates in planning.
-
-## Reproduction command
-
-From the repository root, after installing dependencies, placing external assets, copying `configs/local_config.example.json` to `repro/local_config.json`, starting Ollama, and pulling the exact model:
+After preparing `data/README.md`, dependencies, local config, and Ollama:
 
 ```powershell
-python -m repro.experiments.smr_mimar_g.run_controlled_positive_5users
+python -m repro.experiments.main_comparison.run_main_comparison
 ```
 
-The runner intentionally refuses to overwrite a completed output directory. This release includes frozen results for review; run in a clean copy where `repro/results/smr_mimar_g/controlled_positive_5users/summary.json` is absent, while preserving the supplied results elsewhere.
-
-## Result scope
-
-The experiment is an exploratory five-user pre-study. The fixed request seed made each user’s two paths identical. No significance test was performed. Full paths and metrics are in `docs/FINAL_RESULTS.md`.
-
+The runner refuses to overwrite included frozen results. No significance or general-superiority claim is made.

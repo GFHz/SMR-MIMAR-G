@@ -1,4 +1,4 @@
-"""Same-protocol local LLM-IPP-style versus frozen SMR-MIMAR-G comparison."""
+"""Shared local LLM-IPP-style generator and strict post-hoc evaluation helpers."""
 from __future__ import annotations
 
 import csv
@@ -21,7 +21,7 @@ from repro.movie_path_parser import parse_movie_path, truncation_diagnostic
 from repro.utils import ROOT, read_json, write_json
 
 USERS = [419, 5021, 2677, 3113, 2249]
-OUT = ROOT / "repro/results/llmipp_vs_smr_mimar_g_same_protocol"
+OUT = ROOT / "repro/results/main_comparison"
 SMR = ROOT / "repro/results/smr_mimar_g/controlled_positive_5users"
 FORMAT_PROMPT = (
     "Output the influence path in the format of python list object. "
@@ -191,20 +191,13 @@ def main():
     resume = OUT.exists() and (OUT / "llmipp_paths.json").is_file() and (OUT / "smr_mimar_g_paths.json").is_file()
     if OUT.exists() and not resume:
         raise FileExistsError(f"Refusing to overwrite incomplete/unrecognized output {OUT}")
+    verify_sources()
     if PROTOCOL_VERSION != "Formal-Evaluation-v1" or sha(CHECKPOINT) != EXPECTED_CHECKPOINT_SHA:
         raise RuntimeError("Frozen evaluator/checkpoint mismatch")
     before = {"smr_method": digest_tree(ROOT / "repro/methods/smr_mimar_g"),
               "formal": digest_tree(ROOT / "repro/evaluators/formal"),
               "smr_results": digest_tree(SMR)}
-    manifest = read_json(ROOT / "repro/results/pilot/pilot_manifest.json")
-    by_user = {u["user_id"]: u for u in manifest["users"]}
-    users = [by_user[uid] for uid in USERS]
-    _, version = local_llm.request("/api/version", timeout=15)
-    _, tags = local_llm.request("/api/tags", timeout=15)
-    cfg = read_json(local_llm.CONFIG)
-    installed = next((m for m in tags["models"] if m["name"] == cfg["model"]), None)
-    if installed is None or installed["digest"] != cfg["model_digest"]:
-        raise RuntimeError("Frozen local model/digest mismatch")
+    _, users, _, _ = preflight(check_service=True)
     if [u["user_id"] for u in users] != USERS:
         raise RuntimeError("Frozen user order mismatch")
     expected_targets = {419:"Clean Slate (Coup de Torchon) (1981)",5021:"Drunken Master (Zui quan) (1979)",
@@ -281,4 +274,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit("Run: python -m repro.experiments.main_comparison.run_main_comparison")

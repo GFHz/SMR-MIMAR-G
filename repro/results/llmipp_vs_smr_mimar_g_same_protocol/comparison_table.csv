@@ -1,3 +1,0 @@
-﻿Method,Valid Paths,Total Paths,IoI,IoR,Proxy,Coherence,HistoryReuseRate,TargetPresenceRate,TargetLastRate,IntraPathDuplicateRate,PathsWithHistoryReuse,PathsTargetMissing,PathsTargetPresentButNotLast,PathsWithIntraPathDuplicates
-LLM-IPP-style same-protocol,7,10,-0.9899796470815401,26.428571428571427,0.9499672182968685,0.8785714285714286,0.675,0.9,0.8,0.0,8,1,1,0
-SMR-MIMAR-G,10,10,2.3745645592687077,416,0.6067911714418586,0.9333333333333333,0.0,1.0,1.0,0.0,0,0,0,0
